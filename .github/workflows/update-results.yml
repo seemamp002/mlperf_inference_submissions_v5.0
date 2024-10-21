@@ -34,7 +34,7 @@ jobs:
         cm run script --tags=run,mlperf,inference,submission-checker --adr.inference-src.tags=_repo.https://github.com/GATEOverflow/inference --quiet --extra_args=" --skip-extra-files-in-root-check"  --submission_dir=./ > >(tee -a out.txt) 2> >(tee -a checker_log.txt >&2)
         cm run script --tags=convert,from-csv,to-md --csv_file=summary.csv --md_file=README.md
 
-        USER=GitHub Action
+        USER="GitHub Action"
         EMAIL=admin@gateoverflow.com
 
         git config --global user.name "$USER"
