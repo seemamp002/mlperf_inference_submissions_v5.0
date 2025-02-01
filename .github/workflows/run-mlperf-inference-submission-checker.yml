@@ -1,17 +1,13 @@
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
 name: MLPerf inference submission checker
 
 on:
   pull_request:
-    branches: [ "main", "v4.1" ]
+    branches: [ "main", "v5.0" ]
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
-    env:
-      CM_INDEX: "on"
     strategy:
       fail-fast: false
       matrix:
@@ -25,7 +21,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        python3 -m pip install cm4mlops
+        python3 -m pip install mlc-scripts
     - name: Run MLPerf Inference Submission Checker
       run: |
-        cmr "run mlc mlcommons mlperf inference mlperf-inference submission checker submission-checker mlc-submission-checker" --adr.inference-src.tags=_repo.https://github.com/GATEOverflow/inference --quiet --extra_args=" --skip-extra-files-in-root-check" --submission_dir=./
+        mlcr run,mlperf,submission-checker,inference --adr.inference-src.tags=_branch.dev --quiet --extra_args=" --skip-extra-files-in-root-check" --submission_dir=./
