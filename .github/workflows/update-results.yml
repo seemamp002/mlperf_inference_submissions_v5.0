@@ -1,18 +1,14 @@
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
 name: MLPerf inference results updater
 
 
 on:
   push:
-    branches: [ "main", "v4.1" ]
+    branches: [ "main", "v5.0" ]
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
-    env:
-      CM_INDEX: "on"
     strategy:
       fail-fast: false
       matrix:
@@ -27,15 +23,15 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python3 -m pip install cm4mlops
+        python3 -m pip install mlc-scripts
 
     - name: Run MLPerf Inference Submission Checker and generate results summary
       run: |
-        cm run script --tags=run,mlperf,inference,submission-checker --adr.inference-src.tags=_branch.dev --quiet --extra_args=" --skip-extra-files-in-root-check"  --submission_dir=./ > >(tee -a out.txt) 2> >(tee -a checker_log.txt >&2)
-        cm run script --tags=convert,from-csv,to-md --csv_file=summary.csv --md_file=README.md
+        mlcr run,mlperf,inference,submission-checker --adr.inference-src.tags=_branch.dev --quiet --extra_args=" --skip-extra-files-in-root-check"  --submission_dir=./ > >(tee -a out.txt) 2> >(tee -a checker_log.txt >&2)
+        mlcr convert,from-csv,to-md --csv_file=summary.csv --md_file=README.md
 
-        USER="GitHub Action"
-        EMAIL=admin@gateoverflow.com
+        USER="mlcommons-bot"
+        EMAIL="mlcommons-bot@users.noreply.github.com"
 
         git config --global user.name "$USER"
         git config --global user.email "$EMAIL"
