@@ -5,9 +5,9 @@ Platform Details
 Linux junikki 6.8.0-52-generic #53-Ubuntu SMP PREEMPT_DYNAMIC Sat Jan 11 00:06:25 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 ------------------------------------------------------------
 2. w
- 15:43:18 up  7:02,  1 user,  load average: 10.18, 8.61, 5.18
+ 19:41:15 up 11:00,  1 user,  load average: 1.88, 2.02, 1.94
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-junikki  tty2     -                08:45    7:02m 14:28   0.09s /usr/libexec/gnome-session-binary --session=ubuntu
+junikki  tty2     -                08:45   11:00m 20:51   0.09s /usr/libexec/gnome-session-binary --session=ubuntu
 ------------------------------------------------------------
 3. Username
 junikki
@@ -63,20 +63,21 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |         |-at-spi2-registr---3*[{at-spi2-registr}]
         |         |-2*[cat]
         |         |-chrome-+-2*[cat]
-        |         |        |-chrome---chrome---32*[{chrome}]
+        |         |        |-chrome---chrome---36*[{chrome}]
         |         |        |-chrome---chrome-+-chrome---7*[{chrome}]
         |         |        |                 |-chrome---18*[{chrome}]
         |         |        |                 |-4*[chrome---15*[{chrome}]]
-        |         |        |                 |-32*[chrome---14*[{chrome}]]
+        |         |        |                 |-23*[chrome---14*[{chrome}]]
         |         |        |                 |-chrome---11*[{chrome}]
-        |         |        |                 |-4*[chrome---16*[{chrome}]]
+        |         |        |                 |-3*[chrome---16*[{chrome}]]
         |         |        |                 |-chrome---17*[{chrome}]
         |         |        |                 |-chrome---22*[{chrome}]
-        |         |        |                 |-chrome---13*[{chrome}]
-        |         |        |                 |-chrome---9*[{chrome}]
-        |         |        |                 `-chrome---10*[{chrome}]
+        |         |        |                 |-chrome---37*[{chrome}]
+        |         |        |                 |-chrome---28*[{chrome}]
+        |         |        |                 |-3*[chrome---10*[{chrome}]]
+        |         |        |                 `-2*[chrome---9*[{chrome}]]
         |         |        |-chrome---12*[{chrome}]
-        |         |        |-chrome---8*[{chrome}]
+        |         |        |-chrome---10*[{chrome}]
         |         |        `-38*[{chrome}]
         |         |-2*[chrome_crashpad---2*[{chrome_crashpad}]]
         |         |-chrome_crashpad---{chrome_crashpad}
@@ -95,7 +96,7 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |         |                 `-4*[{gnome-session-b}]
         |         |-gnome-session-c---{gnome-session-c}
         |         |-gnome-shell-+-code-+-code---code---24*[{code}]
-        |         |             |      |-code---code---code---16*[{code}]
+        |         |             |      |-code---code---code---17*[{code}]
         |         |             |      |-code---10*[{code}]
         |         |             |      |-code---15*[{code}]
         |         |             |      |-code---17*[{code}]
@@ -110,10 +111,9 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |         |             |-gjs---13*[{gjs}]
         |         |             |-gnome-system-mo---22*[{gnome-system-mo}]
         |         |             |-mutter-x11-fram---14*[{mutter-x11-fram}]
-        |         |             `-30*[{gnome-shell}]
+        |         |             `-31*[{gnome-shell}]
         |         |-gnome-shell-cal---6*[{gnome-shell-cal}]
-        |         |-gnome-terminal--+-2*[zsh]
-        |         |                 |-zsh---mlcr---sh---bash---pstree
+        |         |-gnome-terminal--+-zsh---mlcr---sh---bash---pstree
         |         |                 `-6*[{gnome-terminal-}]
         |         |-goa-daemon---4*[{goa-daemon}]
         |         |-goa-identity-se---3*[{goa-identity-se}]
@@ -155,10 +155,11 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |         |-2*[pipewire---2*[{pipewire}]]
         |         |-pipewire-pulse---2*[{pipewire-pulse}]
         |         |-snapd-desktop-i---snapd-desktop-i---9*[{snapd-desktop-i}]
-        |         |-tracker-miner-f---7*[{tracker-miner-f}]
+        |         |-tracker-miner-f-+-tracker-extract---4*[{tracker-extract}]
+        |         |                 `-8*[{tracker-miner-f}]
         |         |-wireplumber---5*[{wireplumber}]
         |         |-xdg-desktop-por---6*[{xdg-desktop-por}]
-        |         |-xdg-desktop-por---17*[{xdg-desktop-por}]
+        |         |-xdg-desktop-por---18*[{xdg-desktop-por}]
         |         |-xdg-desktop-por---4*[{xdg-desktop-por}]
         |         |-xdg-document-po-+-fusermount3
         |         |                 `-6*[{xdg-document-po}]
@@ -182,7 +183,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 3813.302
+cpu MHz		: 3842.987
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -210,7 +211,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 3781.707
+cpu MHz		: 1537.096
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -238,7 +239,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 2234.108
+cpu MHz		: 1537.172
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -266,7 +267,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1526.932
+cpu MHz		: 1536.262
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -294,7 +295,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1527.043
+cpu MHz		: 3842.436
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -322,7 +323,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1527.087
+cpu MHz		: 3842.487
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -350,7 +351,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1526.235
+cpu MHz		: 3842.248
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -378,7 +379,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1524.598
+cpu MHz		: 3841.733
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -416,7 +417,7 @@ Core(s) per socket:                   4
 Socket(s):                            1
 Stepping:                             1
 Frequency boost:                      enabled
-CPU(s) scaling MHz:                   92%
+CPU(s) scaling MHz:                   134%
 CPU max MHz:                          2300.0000
 CPU min MHz:                          1400.0000
 BogoMIPS:                             4591.41
@@ -447,49 +448,49 @@ Vulnerability Tsx async abort:        Not affected
 available: 1 nodes (0)
 node 0 cpus: 0 1 2 3 4 5 6 7
 node 0 size: 5856 MB
-node 0 free: 891 MB
+node 0 free: 367 MB
 node distances:
 node   0 
   0:  10 
 ------------------------------------------------------------
 9. /proc/meminfo
 MemTotal:        5996804 kB
-MemFree:          912416 kB
-MemAvailable:    1758824 kB
-Buffers:           21564 kB
-Cached:          1038264 kB
-SwapCached:        72032 kB
-Active:          1470168 kB
-Inactive:        2670816 kB
-Active(anon):    1138728 kB
-Inactive(anon):  2028088 kB
-Active(file):     331440 kB
-Inactive(file):   642728 kB
-Unevictable:          48 kB
-Mlocked:              48 kB
+MemFree:          377008 kB
+MemAvailable:    1399164 kB
+Buffers:           30732 kB
+Cached:          1258816 kB
+SwapCached:        65428 kB
+Active:          4014340 kB
+Inactive:         625312 kB
+Active(anon):    3321572 kB
+Inactive(anon):   174816 kB
+Active(file):     692768 kB
+Inactive(file):   450496 kB
+Unevictable:         192 kB
+Mlocked:             192 kB
 SwapTotal:       4194300 kB
-SwapFree:        1269320 kB
+SwapFree:        1156656 kB
 Zswap:                 0 kB
 Zswapped:              0 kB
-Dirty:               552 kB
+Dirty:              1268 kB
 Writeback:             0 kB
-AnonPages:       3034640 kB
-Mapped:           663216 kB
-Shmem:             85652 kB
-KReclaimable:     169656 kB
-Slab:             443900 kB
-SReclaimable:     169656 kB
-SUnreclaim:       274244 kB
-KernelStack:       28912 kB
-PageTables:       107056 kB
+AnonPages:       3290120 kB
+Mapped:           637768 kB
+Shmem:            146284 kB
+KReclaimable:     176308 kB
+Slab:             453036 kB
+SReclaimable:     176308 kB
+SUnreclaim:       276728 kB
+KernelStack:       28240 kB
+PageTables:       100512 kB
 SecPageTables:         0 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:     7192700 kB
-Committed_AS:   55371128 kB
+Committed_AS:   49981100 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:      150788 kB
+VmallocUsed:      150020 kB
 VmallocChunk:          0 kB
 Percpu:            15040 kB
 HardwareCorrupted:     0 kB
@@ -505,8 +506,8 @@ HugePages_Rsvd:        0
 HugePages_Surp:        0
 Hugepagesize:       2048 kB
 Hugetlb:               0 kB
-DirectMap4k:     1234200 kB
-DirectMap2M:     4993024 kB
+DirectMap4k:     1289496 kB
+DirectMap2M:     4937728 kB
 DirectMap1G:           0 kB
 ------------------------------------------------------------
 10. who -r
@@ -966,10 +967,10 @@ update-notifier-motd.timer                     enabled         enabled
 BOOT_IMAGE=/boot/vmlinuz-6.8.0-52-generic root=UUID=7e06919f-ce53-4943-9bd7-800cf179c63d ro quiet splash vt.handoff=7
 ------------------------------------------------------------
 14. cpupower frequency-info
-analyzing CPU 2:
+analyzing CPU 6:
   driver: acpi-cpufreq
-  CPUs which run at the same hardware frequency: 2
-  CPUs which need to have their frequency coordinated by software: 2
+  CPUs which run at the same hardware frequency: 6
+  CPUs which need to have their frequency coordinated by software: 6
   maximum transition latency:  Cannot determine or is not supported.
   hardware limits: 1.40 GHz - 2.30 GHz
   available frequency steps:  2.30 GHz, 1.70 GHz, 1.40 GHz
@@ -978,7 +979,7 @@ analyzing CPU 2:
                   The governor "schedutil" may decide which speed to use
                   within this range.
   current CPU frequency: Unable to call hardware
-  current CPU frequency: 1.32 GHz (asserted by call to kernel)
+  current CPU frequency: 3.84 GHz (asserted by call to kernel)
   boost state support:
     Supported: no
     Active: no
@@ -1035,16 +1036,16 @@ fs.binfmt_misc.python3/12 = flags:
 fs.binfmt_misc.python3/12 = offset 0
 fs.binfmt_misc.python3/12 = magic cb0d0d0a
 fs.binfmt_misc.status = enabled
-fs.dentry-state = 92162	66275	45	0	15356	0
+fs.dentry-state = 85358	58267	45	0	14682	0
 fs.dir-notify-enable = 1
 fs.epoll.max_user_watches = 1319067
 fs.fanotify.max_queued_events = 16384
 fs.fanotify.max_user_groups = 128
 fs.fanotify.max_user_marks = 48001
 fs.file-max = 9223372036854775807
-fs.file-nr = 16736	0	9223372036854775807
-fs.inode-nr = 109315	20707
-fs.inode-state = 109315	20707	0	0	0	0	0
+fs.file-nr = 16896	0	9223372036854775807
+fs.inode-nr = 95753	13298
+fs.inode-state = 95753	13298	0	0	0	0	0
 fs.inotify.max_queued_events = 16384
 fs.inotify.max_user_instances = 128
 fs.inotify.max_user_watches = 65536
@@ -1135,7 +1136,7 @@ kernel.msgmnb = 16384
 kernel.msgmni = 32000
 kernel.ngroups_max = 65536
 kernel.nmi_watchdog = 1
-kernel.ns_last_pid = 49846
+kernel.ns_last_pid = 160568
 kernel.numa_balancing = 0
 kernel.numa_balancing_promote_rate_limit_MBps = 65536
 kernel.oops_all_cpu_backtrace = 0
@@ -1153,7 +1154,7 @@ kernel.panic_on_warn = 0
 kernel.panic_print = 0
 kernel.perf_cpu_time_max_percent = 25
 kernel.perf_event_max_contexts_per_stack = 8
-kernel.perf_event_max_sample_rate = 32000
+kernel.perf_event_max_sample_rate = 25000
 kernel.perf_event_max_stack = 127
 kernel.perf_event_mlock_kb = 516
 kernel.perf_event_paranoid = 4
@@ -1166,13 +1167,13 @@ kernel.printk_devkmsg = on
 kernel.printk_ratelimit = 5
 kernel.printk_ratelimit_burst = 10
 kernel.pty.max = 4096
-kernel.pty.nr = 9
+kernel.pty.nr = 7
 kernel.pty.reserve = 1024
 kernel.random.boot_id = 45d6f50e-6d63-4481-94b7-76810f6cee94
 kernel.random.entropy_avail = 256
 kernel.random.poolsize = 256
 kernel.random.urandom_min_reseed_secs = 60
-kernel.random.uuid = d7cb56eb-efd8-432d-8bed-2a44ead48e74
+kernel.random.uuid = bd41528e-9c81-42f6-a6e4-714e0891ec1f
 kernel.random.write_wakeup_threshold = 256
 kernel.randomize_va_space = 2
 kernel.real-root-dev = 0
