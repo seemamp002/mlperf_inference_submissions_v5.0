@@ -92,6 +92,246 @@
     "3":{
         "Organization":"MLCommons",
         "Availability":"available",
+        "Division":"open",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x1",
+        "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
+        "Model":"stable-diffusion-xl",
+        "MlperfModel":"stable-diffusion-xl",
+        "Scenario":"Offline",
+        "Result":0.694931,
+        "Accuracy":"CLIP_SCORE: 31.263777194321154  FID_SCORE: 23.23140499788923",
+        "number_of_nodes":1,
+        "host_processor_model_name":"13th Gen Intel(R) Core(TM) i9-13900K",
+        "host_processors_per_node":1,
+        "host_processor_core_count":24,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":1,
+        "Location":"open\/MLCommons\/results\/RTX4090x1-nvidia-gpu-TensorRT-default_config\/stable-diffusion-xl\/offline",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-51-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"int8"
+    },
+    "4":{
+        "Organization":"MLCommons",
+        "Availability":"available",
+        "Division":"open",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x1",
+        "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
+        "Model":"stable-diffusion-xl",
+        "MlperfModel":"stable-diffusion-xl",
+        "Scenario":"SingleStream",
+        "Result":1424.917105,
+        "Accuracy":"CLIP_SCORE: 31.26121644884348  FID_SCORE: 23.085608954777285",
+        "number_of_nodes":1,
+        "host_processor_model_name":"13th Gen Intel(R) Core(TM) i9-13900K",
+        "host_processors_per_node":1,
+        "host_processor_core_count":24,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":1,
+        "Location":"open\/MLCommons\/results\/RTX4090x1-nvidia-gpu-TensorRT-default_config\/stable-diffusion-xl\/singlestream",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-51-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"int8"
+    },
+    "5":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x2",
+        "Platform":"RTX4090x2-nvidia-gpu-TensorRT-default_config",
+        "Model":"3d-unet-99.9",
+        "MlperfModel":"3d-unet-99.9",
+        "Scenario":"Offline",
+        "Result":8.28506,
+        "Accuracy":"DICE: 0.86236",
+        "number_of_nodes":1,
+        "host_processor_model_name":"Intel(R) Xeon(R) w7-2495X",
+        "host_processors_per_node":1,
+        "host_processor_core_count":24,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":2,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x2-nvidia-gpu-TensorRT-default_config\/3d-unet-99.9\/offline",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"int8"
+    },
+    "6":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x2",
+        "Platform":"RTX4090x2-nvidia-gpu-TensorRT-default_config",
+        "Model":"3d-unet-99.9",
+        "MlperfModel":"3d-unet-99.9",
+        "Scenario":"SingleStream",
+        "Result":430.403815,
+        "Accuracy":"DICE: 0.86236",
+        "number_of_nodes":1,
+        "host_processor_model_name":"Intel(R) Xeon(R) w7-2495X",
+        "host_processors_per_node":1,
+        "host_processor_core_count":24,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":2,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x2-nvidia-gpu-TensorRT-default_config\/3d-unet-99.9\/singlestream",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"int8"
+    },
+    "7":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x2",
+        "Platform":"RTX4090x2-nvidia-gpu-TensorRT-default_config",
+        "Model":"3d-unet-99",
+        "MlperfModel":"3d-unet-99",
+        "Scenario":"Offline",
+        "Result":8.28506,
+        "Accuracy":"DICE: 0.86236",
+        "number_of_nodes":1,
+        "host_processor_model_name":"Intel(R) Xeon(R) w7-2495X",
+        "host_processors_per_node":1,
+        "host_processor_core_count":24,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":2,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x2-nvidia-gpu-TensorRT-default_config\/3d-unet-99\/offline",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"int8"
+    },
+    "8":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x2",
+        "Platform":"RTX4090x2-nvidia-gpu-TensorRT-default_config",
+        "Model":"3d-unet-99",
+        "MlperfModel":"3d-unet-99",
+        "Scenario":"SingleStream",
+        "Result":430.403815,
+        "Accuracy":"DICE: 0.86236",
+        "number_of_nodes":1,
+        "host_processor_model_name":"Intel(R) Xeon(R) w7-2495X",
+        "host_processors_per_node":1,
+        "host_processor_core_count":24,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":2,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x2-nvidia-gpu-TensorRT-default_config\/3d-unet-99\/singlestream",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"int8"
+    },
+    "9":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x2",
+        "Platform":"RTX4090x2-nvidia-gpu-TensorRT-default_config",
+        "Model":"bert-99",
+        "MlperfModel":"bert-99",
+        "Scenario":"Offline",
+        "Result":8266.19,
+        "Accuracy":"F1: 90.15279313202916",
+        "number_of_nodes":1,
+        "host_processor_model_name":"Intel(R) Xeon(R) w7-2495X",
+        "host_processors_per_node":1,
+        "host_processor_core_count":24,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":2,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x2-nvidia-gpu-TensorRT-default_config\/bert-99\/offline",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"fp16"
+    },
+    "10":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x2",
+        "Platform":"RTX4090x2-nvidia-gpu-TensorRT-default_config",
+        "Model":"bert-99",
+        "MlperfModel":"bert-99",
+        "Scenario":"SingleStream",
+        "Result":1.030422,
+        "Accuracy":"F1: 90.26682135974633",
+        "number_of_nodes":1,
+        "host_processor_model_name":"Intel(R) Xeon(R) w7-2495X",
+        "host_processors_per_node":1,
+        "host_processor_core_count":24,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":2,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x2-nvidia-gpu-TensorRT-default_config\/bert-99\/singlestream",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"fp16"
+    },
+    "11":{
+        "Organization":"MLCommons",
+        "Availability":"available",
         "Division":"closed",
         "SystemType":"datacenter,edge",
         "SystemName":"RTX4090x1",
@@ -119,7 +359,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "4":{
+    "12":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -149,7 +389,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "5":{
+    "13":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -179,7 +419,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "6":{
+    "14":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -209,7 +449,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "7":{
+    "15":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -239,7 +479,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "8":{
+    "16":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -269,7 +509,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "9":{
+    "17":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -299,7 +539,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "10":{
+    "18":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -329,7 +569,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "11":{
+    "19":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -359,7 +599,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "12":{
+    "20":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -389,7 +629,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "13":{
+    "21":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -419,7 +659,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "14":{
+    "22":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -449,7 +689,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "15":{
+    "23":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -479,7 +719,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "16":{
+    "24":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -509,7 +749,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "17":{
+    "25":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -539,7 +779,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "18":{
+    "26":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -569,7 +809,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "19":{
+    "27":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -599,7 +839,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "20":{
+    "28":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -629,7 +869,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "21":{
+    "29":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -659,7 +899,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "22":{
+    "30":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -689,7 +929,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "23":{
+    "31":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -719,7 +959,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "24":{
+    "32":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -749,7 +989,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "25":{
+    "33":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -779,7 +1019,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "26":{
+    "34":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
