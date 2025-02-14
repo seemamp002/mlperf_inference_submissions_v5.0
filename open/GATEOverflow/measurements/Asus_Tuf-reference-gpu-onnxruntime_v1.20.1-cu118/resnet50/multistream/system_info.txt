@@ -5,9 +5,9 @@ Platform Details
 Linux junikki 6.8.0-52-generic #53-Ubuntu SMP PREEMPT_DYNAMIC Sat Jan 11 00:06:25 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 ------------------------------------------------------------
 2. w
- 18:26:18 up  6:32,  1 user,  load average: 0.62, 0.24, 0.65
+ 19:05:49 up  7:12,  1 user,  load average: 1.98, 0.99, 0.57
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
-junikki  tty2     -                11:54    1:02m  3:33   0.05s /usr/libexec/gnome-session-binary --session=ubuntu
+junikki  tty2     -                11:54    1:42m  4:07   0.05s /usr/libexec/gnome-session-binary --session=ubuntu
 ------------------------------------------------------------
 3. Username
 junikki
@@ -77,17 +77,16 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |         |                 `-4*[{gnome-session-b}]
         |         |-gnome-session-c---{gnome-session-c}
         |         |-gnome-shell-+-chrome-+-2*[cat]
-        |         |             |        |-chrome---chrome---27*[{chrome}]
+        |         |             |        |-chrome---chrome---26*[{chrome}]
         |         |             |        |-chrome---chrome-+-chrome---7*[{chrome}]
-        |         |             |        |                 |-2*[chrome---15*[{chrome}]]
-        |         |             |        |                 |-13*[chrome---14*[{chrome}]]
-        |         |             |        |                 |-2*[chrome---13*[{chrome}]]
-        |         |             |        |                 |-chrome---10*[{chrome}]
+        |         |             |        |                 |-3*[chrome---15*[{chrome}]]
+        |         |             |        |                 |-16*[chrome---14*[{chrome}]]
         |         |             |        |                 |-chrome---11*[{chrome}]
-        |         |             |        |                 |-chrome---26*[{chrome}]
-        |         |             |        |                 |-chrome---17*[{chrome}]
         |         |             |        |                 |-2*[chrome---16*[{chrome}]]
-        |         |             |        |                 |-2*[chrome---9*[{chrome}]]
+        |         |             |        |                 |-chrome---17*[{chrome}]
+        |         |             |        |                 |-3*[chrome---13*[{chrome}]]
+        |         |             |        |                 |-8*[chrome---9*[{chrome}]]
+        |         |             |        |                 |-chrome---27*[{chrome}]
         |         |             |        |                 `-chrome---8*[{chrome}]
         |         |             |        |-chrome---12*[{chrome}]
         |         |             |        |-chrome---7*[{chrome}]
@@ -136,11 +135,11 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |         |             `-3*[{ibus-daemon}]
         |         |-ibus-portal---3*[{ibus-portal}]
         |         |-ibus-x11---3*[{ibus-x11}]
-        |         |-nautilus---26*[{nautilus}]
+        |         |-nautilus---25*[{nautilus}]
         |         |-2*[pipewire---2*[{pipewire}]]
         |         |-pipewire-pulse---2*[{pipewire-pulse}]
         |         |-snapd-desktop-i---snapd-desktop-i---9*[{snapd-desktop-i}]
-        |         |-tracker-miner-f---8*[{tracker-miner-f}]
+        |         |-tracker-miner-f---7*[{tracker-miner-f}]
         |         |-wireplumber---5*[{wireplumber}]
         |         |-xdg-desktop-por---6*[{xdg-desktop-por}]
         |         |-xdg-desktop-por---27*[{xdg-desktop-por}]
@@ -167,7 +166,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1653.218
+cpu MHz		: 1277.629
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -195,7 +194,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 3965.772
+cpu MHz		: 1277.537
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -223,7 +222,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1573.993
+cpu MHz		: 3189.456
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -251,7 +250,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1557.235
+cpu MHz		: 3191.225
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -279,7 +278,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1574.882
+cpu MHz		: 1277.571
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -307,7 +306,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1556.918
+cpu MHz		: 1277.633
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -335,7 +334,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 3891.879
+cpu MHz		: 1400.000
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -363,7 +362,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 3323.928
+cpu MHz		: 1906.860
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -401,7 +400,7 @@ Core(s) per socket:                   4
 Socket(s):                            1
 Stepping:                             1
 Frequency boost:                      enabled
-CPU(s) scaling MHz:                   93%
+CPU(s) scaling MHz:                   85%
 CPU max MHz:                          2300.0000
 CPU min MHz:                          1400.0000
 BogoMIPS:                             4591.72
@@ -432,49 +431,49 @@ Vulnerability Tsx async abort:        Not affected
 available: 1 nodes (0)
 node 0 cpus: 0 1 2 3 4 5 6 7
 node 0 size: 5856 MB
-node 0 free: 785 MB
+node 0 free: 658 MB
 node distances:
 node   0 
   0:  10 
 ------------------------------------------------------------
 9. /proc/meminfo
 MemTotal:        5996812 kB
-MemFree:          805228 kB
-MemAvailable:    2993148 kB
-Buffers:          318724 kB
-Cached:          1954152 kB
-SwapCached:       149520 kB
-Active:          2608948 kB
-Inactive:        1559952 kB
-Active(anon):    1848064 kB
-Inactive(anon):   153612 kB
-Active(file):     760884 kB
-Inactive(file):  1406340 kB
+MemFree:          674504 kB
+MemAvailable:    2217864 kB
+Buffers:          218148 kB
+Cached:          1500284 kB
+SwapCached:       149592 kB
+Active:          2407584 kB
+Inactive:        1850184 kB
+Active(anon):    2013816 kB
+Inactive(anon):   691840 kB
+Active(file):     393768 kB
+Inactive(file):  1158344 kB
 Unevictable:          32 kB
 Mlocked:              32 kB
 SwapTotal:       4194300 kB
-SwapFree:        3453844 kB
+SwapFree:        3443348 kB
 Zswap:                 0 kB
 Zswapped:              0 kB
-Dirty:               140 kB
-Writeback:             0 kB
-AnonPages:       1869980 kB
-Mapped:           618232 kB
-Shmem:            105652 kB
-KReclaimable:     320160 kB
-Slab:             565548 kB
-SReclaimable:     320160 kB
-SUnreclaim:       245388 kB
-KernelStack:       19568 kB
-PageTables:        60056 kB
+Dirty:              3072 kB
+Writeback:             8 kB
+AnonPages:       2513316 kB
+Mapped:           581932 kB
+Shmem:            166320 kB
+KReclaimable:     313240 kB
+Slab:             564824 kB
+SReclaimable:     313240 kB
+SUnreclaim:       251584 kB
+KernelStack:       21904 kB
+PageTables:        71812 kB
 SecPageTables:         0 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:     7192704 kB
-Committed_AS:   27387928 kB
+Committed_AS:   35946116 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:      140492 kB
+VmallocUsed:      142868 kB
 VmallocChunk:          0 kB
 Percpu:            15232 kB
 HardwareCorrupted:     0 kB
@@ -490,8 +489,8 @@ HugePages_Rsvd:        0
 HugePages_Surp:        0
 Hugepagesize:       2048 kB
 Hugetlb:               0 kB
-DirectMap4k:     2149656 kB
-DirectMap2M:     4077568 kB
+DirectMap4k:     2360600 kB
+DirectMap2M:     3866624 kB
 DirectMap1G:           0 kB
 ------------------------------------------------------------
 10. who -r
@@ -946,10 +945,10 @@ update-notifier-motd.timer                     enabled         enabled
 BOOT_IMAGE=/boot/vmlinuz-6.8.0-52-generic root=UUID=7e06919f-ce53-4943-9bd7-800cf179c63d ro quiet splash vt.handoff=7
 ------------------------------------------------------------
 14. cpupower frequency-info
-analyzing CPU 1:
+analyzing CPU 6:
   driver: acpi-cpufreq
-  CPUs which run at the same hardware frequency: 1
-  CPUs which need to have their frequency coordinated by software: 1
+  CPUs which run at the same hardware frequency: 6
+  CPUs which need to have their frequency coordinated by software: 6
   maximum transition latency:  Cannot determine or is not supported.
   hardware limits: 1.40 GHz - 2.30 GHz
   available frequency steps:  2.30 GHz, 1.70 GHz, 1.40 GHz
@@ -958,7 +957,7 @@ analyzing CPU 1:
                   The governor "schedutil" may decide which speed to use
                   within this range.
   current CPU frequency: Unable to call hardware
-  current CPU frequency: 1.18 GHz (asserted by call to kernel)
+  current CPU frequency: 1.28 GHz (asserted by call to kernel)
   boost state support:
     Supported: no
     Active: no
@@ -1015,16 +1014,16 @@ fs.binfmt_misc.python3/12 = flags:
 fs.binfmt_misc.python3/12 = offset 0
 fs.binfmt_misc.python3/12 = magic cb0d0d0a
 fs.binfmt_misc.status = enabled
-fs.dentry-state = 218164	199006	45	0	29242	0
+fs.dentry-state = 221140	197797	45	0	33944	0
 fs.dir-notify-enable = 1
 fs.epoll.max_user_watches = 1319067
 fs.fanotify.max_queued_events = 16384
 fs.fanotify.max_user_groups = 128
 fs.fanotify.max_user_marks = 48001
 fs.file-max = 9223372036854775807
-fs.file-nr = 10880	0	9223372036854775807
-fs.inode-nr = 188845	487
-fs.inode-state = 188845	487	0	0	0	0	0
+fs.file-nr = 11584	0	9223372036854775807
+fs.inode-nr = 190571	4004
+fs.inode-state = 190571	4004	0	0	0	0	0
 fs.inotify.max_queued_events = 16384
 fs.inotify.max_user_instances = 128
 fs.inotify.max_user_watches = 65536
@@ -1115,7 +1114,7 @@ kernel.msgmnb = 16384
 kernel.msgmni = 32000
 kernel.ngroups_max = 65536
 kernel.nmi_watchdog = 1
-kernel.ns_last_pid = 48456
+kernel.ns_last_pid = 58990
 kernel.numa_balancing = 0
 kernel.numa_balancing_promote_rate_limit_MBps = 65536
 kernel.oops_all_cpu_backtrace = 0
@@ -1152,7 +1151,7 @@ kernel.random.boot_id = 824bf32a-0729-471d-b921-fd1246ebcf2e
 kernel.random.entropy_avail = 256
 kernel.random.poolsize = 256
 kernel.random.urandom_min_reseed_secs = 60
-kernel.random.uuid = 894f8380-9418-412d-9515-ef8df57fe020
+kernel.random.uuid = aad53739-d8dc-43f4-bc12-4dfa1fc233a4
 kernel.random.write_wakeup_threshold = 256
 kernel.randomize_va_space = 2
 kernel.real-root-dev = 0
