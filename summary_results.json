@@ -5,6 +5,78 @@
     "Availability": "available",
     "Category": "closed",
     "Suite": "datacenter,edge",
+    "System": "RTX4090x1",
+    "Platform": "RTX4090x1-nvidia-gpu-TensorRT-default_config",
+    "UsedModel": "bert-99",
+    "Model": "bert-99",
+    "Scenario": "Offline",
+    "Accuracy": "F1: 90.15279313202916",
+    "Nodes": 1,
+    "Processor": "AMD Ryzen 9 7950X 16-Core Processor",
+    "host_processors_per_node": 1,
+    "host_processor_core_count": 16,
+    "Accelerator": "NVIDIA GeForce RTX 4090",
+    "a#": 1,
+    "Location": "closed/GATEOverflow/results/RTX4090x1-nvidia-gpu-TensorRT-default_config/bert-99/offline",
+    "Software": "TensorRT",
+    "operating_system": "Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+    "Notes": "",
+    "compliance": 1,
+    "errors": 0,
+    "version": "v5.0",
+    "inferred": 0,
+    "has_power": false,
+    "weight_data_types": "int8",
+    "p#": 1,
+    "Details": "https://github.com/mlcommons/submissions_inference_4.1/tree/main/closed/GATEOverflow/results/RTX4090x1-nvidia-gpu-TensorRT-default_config",
+    "Code": "https://github.com/mlcommons/submissions_inference_4.1/tree/main/closed/GATEOverflow/code",
+    "Unique ID (e.g. for Audit)": "datacenter,edge/closed/GATEOverflow/RTX4090x1-nvidia-gpu-TensorRT-default_config",
+    "ColorKey": "availableGATEOverflow",
+    "Performance_Result": 4130.61,
+    "Performance_Units": "Samples/s"
+  },
+  {
+    "ID": "5.0-0001",
+    "Submitter": "GATEOverflow",
+    "Availability": "available",
+    "Category": "closed",
+    "Suite": "datacenter,edge",
+    "System": "RTX4090x1",
+    "Platform": "RTX4090x1-nvidia-gpu-TensorRT-default_config",
+    "UsedModel": "bert-99",
+    "Model": "bert-99",
+    "Scenario": "SingleStream",
+    "Accuracy": "F1: 90.26682135974633",
+    "Nodes": 1,
+    "Processor": "AMD Ryzen 9 7950X 16-Core Processor",
+    "host_processors_per_node": 1,
+    "host_processor_core_count": 16,
+    "Accelerator": "NVIDIA GeForce RTX 4090",
+    "a#": 1,
+    "Location": "closed/GATEOverflow/results/RTX4090x1-nvidia-gpu-TensorRT-default_config/bert-99/singlestream",
+    "Software": "TensorRT",
+    "operating_system": "Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+    "Notes": "",
+    "compliance": 1,
+    "errors": 0,
+    "version": "v5.0",
+    "inferred": 0,
+    "has_power": false,
+    "weight_data_types": "int8",
+    "p#": 1,
+    "Details": "https://github.com/mlcommons/submissions_inference_4.1/tree/main/closed/GATEOverflow/results/RTX4090x1-nvidia-gpu-TensorRT-default_config",
+    "Code": "https://github.com/mlcommons/submissions_inference_4.1/tree/main/closed/GATEOverflow/code",
+    "Unique ID (e.g. for Audit)": "datacenter,edge/closed/GATEOverflow/RTX4090x1-nvidia-gpu-TensorRT-default_config",
+    "ColorKey": "availableGATEOverflow",
+    "Performance_Result": 1.011897,
+    "Performance_Units": "Latency (ms)"
+  },
+  {
+    "ID": "5.0-0002",
+    "Submitter": "GATEOverflow",
+    "Availability": "available",
+    "Category": "closed",
+    "Suite": "datacenter,edge",
     "System": "RTX4090x2",
     "Platform": "RTX4090x2-nvidia-gpu-TensorRT-default_config",
     "UsedModel": "3d-unet-99",
@@ -36,7 +108,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0001",
+    "ID": "5.0-0002",
     "Submitter": "GATEOverflow",
     "Availability": "available",
     "Category": "closed",
@@ -72,7 +144,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0001",
+    "ID": "5.0-0002",
     "Submitter": "GATEOverflow",
     "Availability": "available",
     "Category": "closed",
@@ -108,7 +180,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0001",
+    "ID": "5.0-0002",
     "Submitter": "GATEOverflow",
     "Availability": "available",
     "Category": "closed",
@@ -144,7 +216,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0001",
+    "ID": "5.0-0002",
     "Submitter": "GATEOverflow",
     "Availability": "available",
     "Category": "closed",
@@ -180,7 +252,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0001",
+    "ID": "5.0-0002",
     "Submitter": "GATEOverflow",
     "Availability": "available",
     "Category": "closed",
@@ -216,7 +288,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0002",
+    "ID": "5.0-0003",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -252,7 +324,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0002",
+    "ID": "5.0-0003",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -288,7 +360,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0002",
+    "ID": "5.0-0003",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -324,7 +396,7 @@
     "Performance_Units": "Queries/s"
   },
   {
-    "ID": "5.0-0002",
+    "ID": "5.0-0003",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -360,7 +432,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0002",
+    "ID": "5.0-0003",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -396,7 +468,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0002",
+    "ID": "5.0-0003",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -432,7 +504,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0002",
+    "ID": "5.0-0003",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -468,7 +540,7 @@
     "Performance_Units": "Queries/s"
   },
   {
-    "ID": "5.0-0002",
+    "ID": "5.0-0003",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -504,7 +576,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -540,7 +612,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -576,7 +648,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -612,7 +684,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -648,7 +720,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -684,7 +756,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -720,7 +792,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -756,7 +828,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -792,7 +864,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -828,7 +900,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -864,7 +936,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -900,7 +972,7 @@
     "Performance_Units": "Queries/s"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -936,7 +1008,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -972,7 +1044,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -1008,7 +1080,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -1044,7 +1116,7 @@
     "Performance_Units": "Queries/s"
   },
   {
-    "ID": "5.0-0003",
+    "ID": "5.0-0004",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "closed",
@@ -1080,7 +1152,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0004",
+    "ID": "5.0-0005",
     "Submitter": "GATEOverflow",
     "Availability": "available",
     "Category": "open",
@@ -1116,7 +1188,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0004",
+    "ID": "5.0-0005",
     "Submitter": "GATEOverflow",
     "Availability": "available",
     "Category": "open",
@@ -1152,7 +1224,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0004",
+    "ID": "5.0-0005",
     "Submitter": "GATEOverflow",
     "Availability": "available",
     "Category": "open",
@@ -1188,7 +1260,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "5.0-0005",
+    "ID": "5.0-0006",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "open",
@@ -1224,7 +1296,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "5.0-0005",
+    "ID": "5.0-0006",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "open",
