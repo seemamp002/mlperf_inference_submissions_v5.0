@@ -156,6 +156,126 @@
         "SystemType":"datacenter,edge",
         "SystemName":"RTX4090x1",
         "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
+        "Model":"3d-unet-99.9",
+        "MlperfModel":"3d-unet-99.9",
+        "Scenario":"Offline",
+        "Result":4.17121,
+        "Accuracy":"DICE: 0.86236",
+        "number_of_nodes":1,
+        "host_processor_model_name":"AMD Ryzen 9 7950X 16-Core Processor",
+        "host_processors_per_node":1,
+        "host_processor_core_count":16,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":1,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x1-nvidia-gpu-TensorRT-default_config\/3d-unet-99.9\/offline",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"int8"
+    },
+    "6":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x1",
+        "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
+        "Model":"3d-unet-99.9",
+        "MlperfModel":"3d-unet-99.9",
+        "Scenario":"SingleStream",
+        "Result":432.996963,
+        "Accuracy":"DICE: 0.86236",
+        "number_of_nodes":1,
+        "host_processor_model_name":"AMD Ryzen 9 7950X 16-Core Processor",
+        "host_processors_per_node":1,
+        "host_processor_core_count":16,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":1,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x1-nvidia-gpu-TensorRT-default_config\/3d-unet-99.9\/singlestream",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"int8"
+    },
+    "7":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x1",
+        "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
+        "Model":"3d-unet-99",
+        "MlperfModel":"3d-unet-99",
+        "Scenario":"Offline",
+        "Result":4.17121,
+        "Accuracy":"DICE: 0.86236",
+        "number_of_nodes":1,
+        "host_processor_model_name":"AMD Ryzen 9 7950X 16-Core Processor",
+        "host_processors_per_node":1,
+        "host_processor_core_count":16,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":1,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x1-nvidia-gpu-TensorRT-default_config\/3d-unet-99\/offline",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"int8"
+    },
+    "8":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x1",
+        "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
+        "Model":"3d-unet-99",
+        "MlperfModel":"3d-unet-99",
+        "Scenario":"SingleStream",
+        "Result":432.996963,
+        "Accuracy":"DICE: 0.86236",
+        "number_of_nodes":1,
+        "host_processor_model_name":"AMD Ryzen 9 7950X 16-Core Processor",
+        "host_processors_per_node":1,
+        "host_processor_core_count":16,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":1,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x1-nvidia-gpu-TensorRT-default_config\/3d-unet-99\/singlestream",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"int8"
+    },
+    "9":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x1",
+        "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
         "Model":"bert-99",
         "MlperfModel":"bert-99",
         "Scenario":"Offline",
@@ -179,7 +299,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "6":{
+    "10":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -209,7 +329,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "7":{
+    "11":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -239,7 +359,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "8":{
+    "12":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -269,7 +389,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "9":{
+    "13":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -299,7 +419,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "10":{
+    "14":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -329,7 +449,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "11":{
+    "15":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -359,7 +479,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "12":{
+    "16":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -389,7 +509,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "13":{
+    "17":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -419,7 +539,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "14":{
+    "18":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -449,7 +569,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "15":{
+    "19":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -479,7 +599,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "16":{
+    "20":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -509,7 +629,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "17":{
+    "21":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -539,7 +659,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "18":{
+    "22":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -569,7 +689,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "19":{
+    "23":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -599,7 +719,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "20":{
+    "24":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -629,7 +749,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "21":{
+    "25":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -659,7 +779,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "22":{
+    "26":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -689,7 +809,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "23":{
+    "27":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -719,7 +839,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "24":{
+    "28":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -749,7 +869,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "25":{
+    "29":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -779,7 +899,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "26":{
+    "30":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -809,7 +929,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "27":{
+    "31":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -839,7 +959,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "28":{
+    "32":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -869,7 +989,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "29":{
+    "33":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -899,7 +1019,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "30":{
+    "34":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -929,7 +1049,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "31":{
+    "35":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -959,7 +1079,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "32":{
+    "36":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -989,7 +1109,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "33":{
+    "37":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1019,7 +1139,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "34":{
+    "38":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1049,7 +1169,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "35":{
+    "39":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1079,7 +1199,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "36":{
+    "40":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
