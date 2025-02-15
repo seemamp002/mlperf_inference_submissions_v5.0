@@ -216,6 +216,66 @@
         "SystemType":"datacenter,edge",
         "SystemName":"RTX4090x1",
         "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
+        "Model":"bert-99.9",
+        "MlperfModel":"bert-99.9",
+        "Scenario":"Offline",
+        "Result":1672.31,
+        "Accuracy":"F1: 90.8832407068292",
+        "number_of_nodes":1,
+        "host_processor_model_name":"AMD Ryzen 9 7950X 16-Core Processor",
+        "host_processors_per_node":1,
+        "host_processor_core_count":16,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":1,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x1-nvidia-gpu-TensorRT-default_config\/bert-99.9\/offline",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"fp16"
+    },
+    "8":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x1",
+        "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
+        "Model":"bert-99.9",
+        "MlperfModel":"bert-99.9",
+        "Scenario":"SingleStream",
+        "Result":2.16583,
+        "Accuracy":"F1: 90.88109554940347",
+        "number_of_nodes":1,
+        "host_processor_model_name":"AMD Ryzen 9 7950X 16-Core Processor",
+        "host_processors_per_node":1,
+        "host_processor_core_count":16,
+        "accelerator_model_name":"NVIDIA GeForce RTX 4090",
+        "accelerators_per_node":1,
+        "Location":"closed\/GATEOverflow\/results\/RTX4090x1-nvidia-gpu-TensorRT-default_config\/bert-99.9\/singlestream",
+        "framework":"TensorRT",
+        "operating_system":"Ubuntu 20.04 (linux-6.8.0-52-generic-glibc2.31)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"fp16"
+    },
+    "9":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter,edge",
+        "SystemName":"RTX4090x1",
+        "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
         "Model":"3d-unet-99",
         "MlperfModel":"3d-unet-99",
         "Scenario":"Offline",
@@ -239,7 +299,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "8":{
+    "10":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -269,7 +329,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "9":{
+    "11":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -279,8 +339,8 @@
         "Model":"bert-99",
         "MlperfModel":"bert-99",
         "Scenario":"Offline",
-        "Result":4130.61,
-        "Accuracy":"F1: 90.15279313202916",
+        "Result":1672.31,
+        "Accuracy":"F1: 90.8832407068292",
         "number_of_nodes":1,
         "host_processor_model_name":"AMD Ryzen 9 7950X 16-Core Processor",
         "host_processors_per_node":1,
@@ -297,9 +357,9 @@
         "inferred":0,
         "has_power":false,
         "Units":"Samples\/s",
-        "weight_data_types":"int8"
+        "weight_data_types":"fp16"
     },
-    "10":{
+    "12":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -309,8 +369,8 @@
         "Model":"bert-99",
         "MlperfModel":"bert-99",
         "Scenario":"SingleStream",
-        "Result":1.011897,
-        "Accuracy":"F1: 90.26682135974633",
+        "Result":2.16583,
+        "Accuracy":"F1: 90.88109554940347",
         "number_of_nodes":1,
         "host_processor_model_name":"AMD Ryzen 9 7950X 16-Core Processor",
         "host_processors_per_node":1,
@@ -327,9 +387,9 @@
         "inferred":0,
         "has_power":false,
         "Units":"Latency (ms)",
-        "weight_data_types":"int8"
+        "weight_data_types":"fp16"
     },
-    "11":{
+    "13":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -359,7 +419,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "12":{
+    "14":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -389,7 +449,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "13":{
+    "15":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -419,7 +479,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "14":{
+    "16":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -449,7 +509,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "15":{
+    "17":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -479,7 +539,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "16":{
+    "18":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -509,7 +569,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "17":{
+    "19":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -539,7 +599,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "18":{
+    "20":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -569,7 +629,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "19":{
+    "21":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -599,7 +659,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "20":{
+    "22":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -629,7 +689,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "21":{
+    "23":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -659,7 +719,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "22":{
+    "24":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -689,7 +749,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "23":{
+    "25":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -719,7 +779,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "24":{
+    "26":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -749,7 +809,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "25":{
+    "27":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -779,7 +839,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "26":{
+    "28":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -809,7 +869,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "27":{
+    "29":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -839,7 +899,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "28":{
+    "30":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -869,7 +929,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "29":{
+    "31":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -899,7 +959,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "30":{
+    "32":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -929,7 +989,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "31":{
+    "33":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -959,7 +1019,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "32":{
+    "34":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -989,7 +1049,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "33":{
+    "35":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1019,7 +1079,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "34":{
+    "36":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1049,7 +1109,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "35":{
+    "37":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1079,7 +1139,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "36":{
+    "38":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1109,7 +1169,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "37":{
+    "39":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1139,7 +1199,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "38":{
+    "40":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1169,7 +1229,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "39":{
+    "41":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1199,7 +1259,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "40":{
+    "42":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
