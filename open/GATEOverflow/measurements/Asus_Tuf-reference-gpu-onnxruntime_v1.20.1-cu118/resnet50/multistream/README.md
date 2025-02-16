@@ -40,4 +40,4 @@ Model Precision: fp32
 `acc`: `76.456`, Required accuracy for closed division `>= 75.6954`
 
 ### Performance Results 
-`Samples per query`: `604003081.0`
+`Samples per query`: `676718092.0`

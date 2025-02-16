@@ -5,9 +5,9 @@ Platform Details
 Linux junikki 6.8.0-52-generic #53-Ubuntu SMP PREEMPT_DYNAMIC Sat Jan 11 00:06:25 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 ------------------------------------------------------------
 2. w
- 19:05:49 up  7:12,  1 user,  load average: 1.98, 0.99, 0.57
+ 15:41:26 up 1 day,  8:33,  1 user,  load average: 3.05, 1.84, 1.60
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
-junikki  tty2     -                11:54    1:42m  4:07   0.05s /usr/libexec/gnome-session-binary --session=ubuntu
+junikki  tty2     -                Sat07   32:33m 16:17   0.04s /usr/libexec/gnome-session-binary --session=ubuntu
 ------------------------------------------------------------
 3. Username
 junikki
@@ -43,7 +43,7 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |-cupsd
         |-dbus-daemon
         |-fwupd---5*[{fwupd}]
-        |-gdm3-+-gdm-session-wor-+-gdm-x-session-+-Xorg---11*[{Xorg}]
+        |-gdm3-+-gdm-session-wor-+-gdm-x-session-+-Xorg---13*[{Xorg}]
         |      |                 |               |-gnome-session-b---3*[{gnome-session-b}]
         |      |                 |               `-3*[{gdm-x-session}]
         |      |                 `-3*[{gdm-session-wor}]
@@ -55,14 +55,15 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |-power-profiles----3*[{power-profiles-}]
         |-rsyslogd---3*[{rsyslogd}]
         |-rtkit-daemon---2*[{rtkit-daemon}]
-        |-snapd---14*[{snapd}]
+        |-snapd---13*[{snapd}]
         |-switcheroo-cont---3*[{switcheroo-cont}]
         |-systemd-+-(sd-pam)
         |         |-at-spi-bus-laun-+-dbus-daemon
         |         |                 `-4*[{at-spi-bus-laun}]
         |         |-at-spi2-registr---3*[{at-spi2-registr}]
-        |         |-chrome_crashpad---2*[{chrome_crashpad}]
+        |         |-2*[chrome_crashpad---2*[{chrome_crashpad}]]
         |         |-chrome_crashpad---{chrome_crashpad}
+        |         |-cpptools-srv---7*[{cpptools-srv}]
         |         |-dbus-daemon
         |         |-dconf-service---3*[{dconf-service}]
         |         |-evolution-addre---6*[{evolution-addre}]
@@ -77,26 +78,41 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |         |                 `-4*[{gnome-session-b}]
         |         |-gnome-session-c---{gnome-session-c}
         |         |-gnome-shell-+-chrome-+-2*[cat]
-        |         |             |        |-chrome---chrome---26*[{chrome}]
+        |         |             |        |-chrome---chrome---30*[{chrome}]
         |         |             |        |-chrome---chrome-+-chrome---7*[{chrome}]
-        |         |             |        |                 |-3*[chrome---15*[{chrome}]]
-        |         |             |        |                 |-16*[chrome---14*[{chrome}]]
+        |         |             |        |                 |-4*[chrome---15*[{chrome}]]
+        |         |             |        |                 |-18*[chrome---14*[{chrome}]]
         |         |             |        |                 |-chrome---11*[{chrome}]
-        |         |             |        |                 |-2*[chrome---16*[{chrome}]]
-        |         |             |        |                 |-chrome---17*[{chrome}]
+        |         |             |        |                 |-chrome---21*[{chrome}]
+        |         |             |        |                 |-4*[chrome---16*[{chrome}]]
+        |         |             |        |                 |-chrome---20*[{chrome}]
+        |         |             |        |                 |-chrome---22*[{chrome}]
         |         |             |        |                 |-3*[chrome---13*[{chrome}]]
-        |         |             |        |                 |-8*[chrome---9*[{chrome}]]
-        |         |             |        |                 |-chrome---27*[{chrome}]
-        |         |             |        |                 `-chrome---8*[{chrome}]
+        |         |             |        |                 |-2*[chrome---8*[{chrome}]]
+        |         |             |        |                 |-2*[chrome---9*[{chrome}]]
+        |         |             |        |                 `-chrome---10*[{chrome}]
         |         |             |        |-chrome---12*[{chrome}]
-        |         |             |        |-chrome---7*[{chrome}]
+        |         |             |        |-chrome---8*[{chrome}]
         |         |             |        `-37*[{chrome}]
-        |         |             |-gjs---14*[{gjs}]
+        |         |             |-code-+-code---code---23*[{code}]
+        |         |             |      |-code---code---code---15*[{code}]
+        |         |             |      |-code---9*[{code}]
+        |         |             |      |-code-+-code---13*[{code}]
+        |         |             |      |      |-code---7*[{code}]
+        |         |             |      |      |-cpptools---17*[{cpptools}]
+        |         |             |      |      |-2*[python3---5*[{python3}]]
+        |         |             |      |      `-16*[{code}]
+        |         |             |      |-code---15*[{code}]
+        |         |             |      |-code---17*[{code}]
+        |         |             |      |-code-+-3*[zsh]
+        |         |             |      |      `-18*[{code}]
+        |         |             |      `-41*[{code}]
+        |         |             |-gjs---13*[{gjs}]
         |         |             |-mutter-x11-fram---14*[{mutter-x11-fram}]
         |         |             `-28*[{gnome-shell}]
         |         |-gnome-shell-cal---6*[{gnome-shell-cal}]
-        |         |-gnome-terminal--+-3*[zsh]
-        |         |                 |-zsh---mlc---sh---bash---pstree
+        |         |-gnome-terminal--+-zsh---mlc---sh---bash---pstree
+        |         |                 |-zsh
         |         |                 `-6*[{gnome-terminal-}]
         |         |-goa-daemon---4*[{goa-daemon}]
         |         |-goa-identity-se---3*[{goa-identity-se}]
@@ -106,7 +122,7 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |         |-gsd-housekeepin---4*[{gsd-housekeepin}]
         |         |-gsd-keyboard---4*[{gsd-keyboard}]
         |         |-gsd-media-keys---4*[{gsd-media-keys}]
-        |         |-gsd-power---4*[{gsd-power}]
+        |         |-gsd-power---5*[{gsd-power}]
         |         |-gsd-print-notif---3*[{gsd-print-notif}]
         |         |-gsd-printer---3*[{gsd-printer}]
         |         |-gsd-rfkill---3*[{gsd-rfkill}]
@@ -122,9 +138,7 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |         |-gvfs-mtp-volume---3*[{gvfs-mtp-volume}]
         |         |-gvfs-udisks2-vo---4*[{gvfs-udisks2-vo}]
         |         |-gvfsd-+-gvfsd-dnssd---3*[{gvfsd-dnssd}]
-        |         |       |-gvfsd-http---3*[{gvfsd-http}]
         |         |       |-gvfsd-network---4*[{gvfsd-network}]
-        |         |       |-gvfsd-recent---3*[{gvfsd-recent}]
         |         |       |-gvfsd-trash---4*[{gvfsd-trash}]
         |         |       `-3*[{gvfsd}]
         |         |-gvfsd-fuse---6*[{gvfsd-fuse}]
@@ -135,17 +149,17 @@ systemd-+-ModemManager---3*[{ModemManager}]
         |         |             `-3*[{ibus-daemon}]
         |         |-ibus-portal---3*[{ibus-portal}]
         |         |-ibus-x11---3*[{ibus-x11}]
-        |         |-nautilus---25*[{nautilus}]
+        |         |-obexd
         |         |-2*[pipewire---2*[{pipewire}]]
         |         |-pipewire-pulse---2*[{pipewire-pulse}]
         |         |-snapd-desktop-i---snapd-desktop-i---9*[{snapd-desktop-i}]
         |         |-tracker-miner-f---7*[{tracker-miner-f}]
         |         |-wireplumber---5*[{wireplumber}]
         |         |-xdg-desktop-por---6*[{xdg-desktop-por}]
-        |         |-xdg-desktop-por---27*[{xdg-desktop-por}]
+        |         |-xdg-desktop-por---19*[{xdg-desktop-por}]
         |         |-xdg-desktop-por---4*[{xdg-desktop-por}]
         |         |-xdg-document-po-+-fusermount3
-        |         |                 `-7*[{xdg-document-po}]
+        |         |                 `-6*[{xdg-document-po}]
         |         `-xdg-permission----3*[{xdg-permission-}]
         |-systemd-journal
         |-systemd-logind
@@ -166,7 +180,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1277.629
+cpu MHz		: 3094.087
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -180,7 +194,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 4591.72
+bogomips	: 4591.36
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -194,7 +208,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1277.537
+cpu MHz		: 1546.794
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -208,7 +222,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 4591.72
+bogomips	: 4591.36
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -222,7 +236,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 3189.456
+cpu MHz		: 1777.223
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -236,7 +250,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 4591.72
+bogomips	: 4591.36
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -250,7 +264,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 3191.225
+cpu MHz		: 1547.103
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -264,7 +278,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 4591.72
+bogomips	: 4591.36
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -278,7 +292,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1277.571
+cpu MHz		: 2581.627
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -292,7 +306,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 4591.72
+bogomips	: 4591.36
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -306,7 +320,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1277.633
+cpu MHz		: 2541.509
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -320,7 +334,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 4591.72
+bogomips	: 4591.36
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -334,7 +348,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1400.000
+cpu MHz		: 3867.678
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -348,7 +362,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 4591.72
+bogomips	: 4591.36
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -362,7 +376,7 @@ model		: 24
 model name	: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 stepping	: 1
 microcode	: 0x8108102
-cpu MHz		: 1906.860
+cpu MHz		: 3865.707
 cache size	: 512 KB
 physical id	: 0
 siblings	: 8
@@ -376,7 +390,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 4591.72
+bogomips	: 4591.36
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -400,10 +414,10 @@ Core(s) per socket:                   4
 Socket(s):                            1
 Stepping:                             1
 Frequency boost:                      enabled
-CPU(s) scaling MHz:                   85%
+CPU(s) scaling MHz:                   113%
 CPU max MHz:                          2300.0000
 CPU min MHz:                          1400.0000
-BogoMIPS:                             4591.72
+BogoMIPS:                             4591.36
 Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es
 Virtualization:                       AMD-V
 L1d cache:                            128 KiB (4 instances)
@@ -431,51 +445,51 @@ Vulnerability Tsx async abort:        Not affected
 available: 1 nodes (0)
 node 0 cpus: 0 1 2 3 4 5 6 7
 node 0 size: 5856 MB
-node 0 free: 658 MB
+node 0 free: 820 MB
 node distances:
 node   0 
   0:  10 
 ------------------------------------------------------------
 9. /proc/meminfo
-MemTotal:        5996812 kB
-MemFree:          674504 kB
-MemAvailable:    2217864 kB
-Buffers:          218148 kB
-Cached:          1500284 kB
-SwapCached:       149592 kB
-Active:          2407584 kB
-Inactive:        1850184 kB
-Active(anon):    2013816 kB
-Inactive(anon):   691840 kB
-Active(file):     393768 kB
-Inactive(file):  1158344 kB
-Unevictable:          32 kB
-Mlocked:              32 kB
+MemTotal:        5996808 kB
+MemFree:          840300 kB
+MemAvailable:    1480144 kB
+Buffers:           38268 kB
+Cached:           852532 kB
+SwapCached:        84988 kB
+Active:          2922676 kB
+Inactive:        1279400 kB
+Active(anon):    2439420 kB
+Inactive(anon):   963564 kB
+Active(file):     483256 kB
+Inactive(file):   315836 kB
+Unevictable:         120 kB
+Mlocked:             120 kB
 SwapTotal:       4194300 kB
-SwapFree:        3443348 kB
+SwapFree:        1727856 kB
 Zswap:                 0 kB
 Zswapped:              0 kB
-Dirty:              3072 kB
-Writeback:             8 kB
-AnonPages:       2513316 kB
-Mapped:           581932 kB
-Shmem:            166320 kB
-KReclaimable:     313240 kB
-Slab:             564824 kB
-SReclaimable:     313240 kB
-SUnreclaim:       251584 kB
-KernelStack:       21904 kB
-PageTables:        71812 kB
+Dirty:               936 kB
+Writeback:             0 kB
+AnonPages:       3285892 kB
+Mapped:           506360 kB
+Shmem:             91680 kB
+KReclaimable:     168592 kB
+Slab:             444792 kB
+SReclaimable:     168592 kB
+SUnreclaim:       276200 kB
+KernelStack:       26032 kB
+PageTables:        95284 kB
 SecPageTables:         0 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:     7192704 kB
-Committed_AS:   35946116 kB
+Committed_AS:   46706324 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:      142868 kB
+VmallocUsed:      147048 kB
 VmallocChunk:          0 kB
-Percpu:            15232 kB
+Percpu:            15104 kB
 HardwareCorrupted:     0 kB
 AnonHugePages:         0 kB
 ShmemHugePages:        0 kB
@@ -489,12 +503,12 @@ HugePages_Rsvd:        0
 HugePages_Surp:        0
 Hugepagesize:       2048 kB
 Hugetlb:               0 kB
-DirectMap4k:     2360600 kB
-DirectMap2M:     3866624 kB
+DirectMap4k:     1531160 kB
+DirectMap2M:     4696064 kB
 DirectMap1G:           0 kB
 ------------------------------------------------------------
 10. who -r
-         run-level 5  2025-02-14 17:23
+         run-level 5  2025-02-15 07:08
 ------------------------------------------------------------
 11. Systemd service manager version
 systemd 255 (255.4-1ubuntu8.5)
@@ -945,10 +959,10 @@ update-notifier-motd.timer                     enabled         enabled
 BOOT_IMAGE=/boot/vmlinuz-6.8.0-52-generic root=UUID=7e06919f-ce53-4943-9bd7-800cf179c63d ro quiet splash vt.handoff=7
 ------------------------------------------------------------
 14. cpupower frequency-info
-analyzing CPU 6:
+analyzing CPU 2:
   driver: acpi-cpufreq
-  CPUs which run at the same hardware frequency: 6
-  CPUs which need to have their frequency coordinated by software: 6
+  CPUs which run at the same hardware frequency: 2
+  CPUs which need to have their frequency coordinated by software: 2
   maximum transition latency:  Cannot determine or is not supported.
   hardware limits: 1.40 GHz - 2.30 GHz
   available frequency steps:  2.30 GHz, 1.70 GHz, 1.40 GHz
@@ -957,7 +971,7 @@ analyzing CPU 6:
                   The governor "schedutil" may decide which speed to use
                   within this range.
   current CPU frequency: Unable to call hardware
-  current CPU frequency: 1.28 GHz (asserted by call to kernel)
+  current CPU frequency: 1.52 GHz (asserted by call to kernel)
   boost state support:
     Supported: no
     Active: no
@@ -1014,16 +1028,16 @@ fs.binfmt_misc.python3/12 = flags:
 fs.binfmt_misc.python3/12 = offset 0
 fs.binfmt_misc.python3/12 = magic cb0d0d0a
 fs.binfmt_misc.status = enabled
-fs.dentry-state = 221140	197797	45	0	33944	0
+fs.dentry-state = 83530	61711	45	0	12275	0
 fs.dir-notify-enable = 1
 fs.epoll.max_user_watches = 1319067
 fs.fanotify.max_queued_events = 16384
 fs.fanotify.max_user_groups = 128
 fs.fanotify.max_user_marks = 48001
 fs.file-max = 9223372036854775807
-fs.file-nr = 11584	0	9223372036854775807
-fs.inode-nr = 190571	4004
-fs.inode-state = 190571	4004	0	0	0	0	0
+fs.file-nr = 14052	0	9223372036854775807
+fs.inode-nr = 92544	6070
+fs.inode-state = 92544	6070	0	0	0	0	0
 fs.inotify.max_queued_events = 16384
 fs.inotify.max_user_instances = 128
 fs.inotify.max_user_watches = 65536
@@ -1051,7 +1065,7 @@ fs.quota.drops = 0
 fs.quota.free_dquots = 0
 fs.quota.lookups = 0
 fs.quota.reads = 0
-fs.quota.syncs = 0
+fs.quota.syncs = 8
 fs.quota.writes = 0
 fs.suid_dumpable = 2
 fs.verity.require_signatures = 0
@@ -1114,7 +1128,7 @@ kernel.msgmnb = 16384
 kernel.msgmni = 32000
 kernel.ngroups_max = 65536
 kernel.nmi_watchdog = 1
-kernel.ns_last_pid = 58990
+kernel.ns_last_pid = 72635
 kernel.numa_balancing = 0
 kernel.numa_balancing_promote_rate_limit_MBps = 65536
 kernel.oops_all_cpu_backtrace = 0
@@ -1132,7 +1146,7 @@ kernel.panic_on_warn = 0
 kernel.panic_print = 0
 kernel.perf_cpu_time_max_percent = 25
 kernel.perf_event_max_contexts_per_stack = 8
-kernel.perf_event_max_sample_rate = 20000
+kernel.perf_event_max_sample_rate = 40000
 kernel.perf_event_max_stack = 127
 kernel.perf_event_mlock_kb = 516
 kernel.perf_event_paranoid = 4
@@ -1145,13 +1159,13 @@ kernel.printk_devkmsg = on
 kernel.printk_ratelimit = 5
 kernel.printk_ratelimit_burst = 10
 kernel.pty.max = 4096
-kernel.pty.nr = 5
+kernel.pty.nr = 8
 kernel.pty.reserve = 1024
-kernel.random.boot_id = 824bf32a-0729-471d-b921-fd1246ebcf2e
+kernel.random.boot_id = ebdce26b-1d25-43fd-b861-732456cd427d
 kernel.random.entropy_avail = 256
 kernel.random.poolsize = 256
 kernel.random.urandom_min_reseed_secs = 60
-kernel.random.uuid = aad53739-d8dc-43f4-bc12-4dfa1fc233a4
+kernel.random.uuid = f6556b5e-b340-4f31-8e6f-daa322a05d49
 kernel.random.write_wakeup_threshold = 256
 kernel.randomize_va_space = 2
 kernel.real-root-dev = 0
@@ -1557,7 +1571,7 @@ net.ipv4.tcp_ehash_entries = 65536
 net.ipv4.tcp_fack = 0
 net.ipv4.tcp_fastopen = 1
 net.ipv4.tcp_fastopen_blackhole_timeout_sec = 0
-net.ipv4.tcp_fastopen_key = 545802fe-afcf32b7-b85fbe88-063b18de
+net.ipv4.tcp_fastopen_key = 5ed817c3-f22a47e5-30150333-21d54810
 net.ipv4.tcp_fin_timeout = 60
 net.ipv4.tcp_frto = 2
 net.ipv4.tcp_fwmark_accept = 0
@@ -1572,7 +1586,7 @@ net.ipv4.tcp_max_orphans = 32768
 net.ipv4.tcp_max_reordering = 300
 net.ipv4.tcp_max_syn_backlog = 512
 net.ipv4.tcp_max_tw_buckets = 32768
-net.ipv4.tcp_mem = 68250	91003	136500
+net.ipv4.tcp_mem = 68250	91002	136500
 net.ipv4.tcp_migrate_req = 0
 net.ipv4.tcp_min_rtt_wlen = 300
 net.ipv4.tcp_min_snd_mss = 48
@@ -1622,7 +1636,7 @@ net.ipv4.udp_child_hash_entries = 0
 net.ipv4.udp_early_demux = 1
 net.ipv4.udp_hash_entries = 4096
 net.ipv4.udp_l3mdev_accept = 0
-net.ipv4.udp_mem = 136503	182006	273006
+net.ipv4.udp_mem = 136503	182005	273006
 net.ipv4.udp_rmem_min = 4096
 net.ipv4.udp_wmem_min = 4096
 net.ipv4.xfrm4_gc_thresh = 32768
@@ -2126,14 +2140,14 @@ LOGO=ubuntu-logo
 ------------------------------------------------------------
 19. Disk information
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
-loop0         7:0    0     4K  1 loop /snap/bare/5
-loop2         7:2    0  73.9M  1 loop /snap/core22/1748
-loop4         7:4    0  11.1M  1 loop /snap/firmware-updater/167
-loop6         7:6    0   516M  1 loop /snap/gnome-42-2204/202
-loop7         7:7    0  91.7M  1 loop /snap/gtk-common-themes/1535
-loop9         7:9    0  10.8M  1 loop /snap/snap-store/1248
-loop11        7:11   0  44.4M  1 loop /snap/snapd/23545
-loop12        7:12   0   568K  1 loop /snap/snapd-desktop-integration/253
+loop0         7:0    0  73.9M  1 loop /snap/core22/1748
+loop1         7:1    0     4K  1 loop /snap/bare/5
+loop2         7:2    0  11.1M  1 loop /snap/firmware-updater/167
+loop3         7:3    0   516M  1 loop /snap/gnome-42-2204/202
+loop4         7:4    0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop5         7:5    0  10.8M  1 loop /snap/snap-store/1248
+loop6         7:6    0  44.4M  1 loop /snap/snapd/23545
+loop7         7:7    0   568K  1 loop /snap/snapd-desktop-integration/253
 nvme0n1     259:0    0 476.9G  0 disk 
 ├─nvme0n1p1 259:1    0   260M  0 part /boot/efi
 ├─nvme0n1p2 259:2    0    16M  0 part 
