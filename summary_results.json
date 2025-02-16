@@ -680,7 +680,7 @@
     "Code": "https://github.com/mlcommons/submissions_inference_4.1/tree/main/closed/GATEOverflow/code",
     "Unique ID (e.g. for Audit)": "datacenter,edge/closed/GATEOverflow/RTX4090x2-nvidia-gpu-TensorRT-default_config",
     "ColorKey": "availableGATEOverflow",
-    "Performance_Result": 8.28506,
+    "Performance_Result": 8.30876,
     "Performance_Units": "Samples/s"
   },
   {
@@ -716,7 +716,7 @@
     "Code": "https://github.com/mlcommons/submissions_inference_4.1/tree/main/closed/GATEOverflow/code",
     "Unique ID (e.g. for Audit)": "datacenter,edge/closed/GATEOverflow/RTX4090x2-nvidia-gpu-TensorRT-default_config",
     "ColorKey": "availableGATEOverflow",
-    "Performance_Result": 430.403815,
+    "Performance_Result": 431.124707,
     "Performance_Units": "Latency (ms)"
   },
   {
