@@ -90,6 +90,96 @@
         "weight_data_types":"fp32"
     },
     "3":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"open",
+        "SystemType":"edge",
+        "SystemName":"junikki",
+        "Platform":"Asus_Tuf-reference-gpu-onnxruntime_v1.20.1-cu118",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"Offline",
+        "Result":16.7388,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx",
+        "host_processors_per_node":1,
+        "host_processor_core_count":4,
+        "accelerator_model_name":"NVIDIA GeForce GTX 1650",
+        "accelerators_per_node":1,
+        "Location":"open\/GATEOverflow\/results\/Asus_Tuf-reference-gpu-onnxruntime_v1.20.1-cu118\/resnet50\/offline",
+        "framework":"onnxruntime v1.20.1",
+        "operating_system":"Ubuntu 24.04 (linux-6.8.0-52-generic-glibc2.39)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"fp32"
+    },
+    "4":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"open",
+        "SystemType":"edge",
+        "SystemName":"junikki",
+        "Platform":"Asus_Tuf-reference-gpu-onnxruntime_v1.20.1-cu118",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"SingleStream",
+        "Result":58.733864,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx",
+        "host_processors_per_node":1,
+        "host_processor_core_count":4,
+        "accelerator_model_name":"NVIDIA GeForce GTX 1650",
+        "accelerators_per_node":1,
+        "Location":"open\/GATEOverflow\/results\/Asus_Tuf-reference-gpu-onnxruntime_v1.20.1-cu118\/resnet50\/singlestream",
+        "framework":"onnxruntime v1.20.1",
+        "operating_system":"Ubuntu 24.04 (linux-6.8.0-52-generic-glibc2.39)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"fp32"
+    },
+    "5":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"open",
+        "SystemType":"edge",
+        "SystemName":"junikki",
+        "Platform":"Asus_Tuf-reference-gpu-onnxruntime_v1.20.1-cu118",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"MultiStream",
+        "Result":676.718092,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx",
+        "host_processors_per_node":1,
+        "host_processor_core_count":4,
+        "accelerator_model_name":"NVIDIA GeForce GTX 1650",
+        "accelerators_per_node":1,
+        "Location":"open\/GATEOverflow\/results\/Asus_Tuf-reference-gpu-onnxruntime_v1.20.1-cu118\/resnet50\/multistream",
+        "framework":"onnxruntime v1.20.1",
+        "operating_system":"Ubuntu 24.04 (linux-6.8.0-52-generic-glibc2.39)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"fp32"
+    },
+    "6":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"open",
@@ -119,7 +209,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "4":{
+    "7":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"open",
@@ -149,7 +239,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "5":{
+    "8":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -179,7 +269,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "6":{
+    "9":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -209,7 +299,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "7":{
+    "10":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -239,7 +329,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "8":{
+    "11":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -269,7 +359,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "9":{
+    "12":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -299,7 +389,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "10":{
+    "13":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -329,7 +419,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "11":{
+    "14":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -359,7 +449,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "12":{
+    "15":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -389,7 +479,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "13":{
+    "16":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -419,7 +509,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "14":{
+    "17":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -449,7 +539,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "15":{
+    "18":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -479,7 +569,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "16":{
+    "19":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -509,7 +599,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "17":{
+    "20":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -539,7 +629,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "18":{
+    "21":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -569,7 +659,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "19":{
+    "22":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -599,7 +689,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "20":{
+    "23":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -629,7 +719,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "21":{
+    "24":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -659,7 +749,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "22":{
+    "25":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -689,7 +779,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "23":{
+    "26":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -719,7 +809,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "24":{
+    "27":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -749,7 +839,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "25":{
+    "28":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -779,7 +869,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "26":{
+    "29":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -809,7 +899,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "27":{
+    "30":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -839,7 +929,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "28":{
+    "31":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -869,7 +959,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "29":{
+    "32":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -899,7 +989,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "30":{
+    "33":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -929,7 +1019,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "31":{
+    "34":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -959,7 +1049,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "32":{
+    "35":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -989,7 +1079,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "33":{
+    "36":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1019,7 +1109,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "34":{
+    "37":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1049,7 +1139,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "35":{
+    "38":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1079,7 +1169,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "36":{
+    "39":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1109,7 +1199,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "37":{
+    "40":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1139,7 +1229,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "38":{
+    "41":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1169,7 +1259,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "39":{
+    "42":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1199,7 +1289,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "40":{
+    "43":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1229,7 +1319,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "41":{
+    "44":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1259,7 +1349,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "42":{
+    "45":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1289,7 +1379,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "43":{
+    "46":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1319,7 +1409,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "44":{
+    "47":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1349,7 +1439,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "45":{
+    "48":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1379,7 +1469,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "46":{
+    "49":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1409,7 +1499,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "47":{
+    "50":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1439,7 +1529,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "48":{
+    "51":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1469,7 +1559,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "49":{
+    "52":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -1499,7 +1589,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "50":{
+    "53":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
