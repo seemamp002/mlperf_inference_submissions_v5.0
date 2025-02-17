@@ -14763,6 +14763,66 @@
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"open",
+        "SystemType":"edge",
+        "SystemName":"8c42efe93456",
+        "Platform":"8c42efe93456-reference-cpu-onnxruntime_v1.20.1-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"Offline",
+        "Result":26.7933,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"12th Gen Intel(R) Core(TM) i5-1240P",
+        "host_processors_per_node":1,
+        "host_processor_core_count":8,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"open\/MLCommons\/results\/8c42efe93456-reference-cpu-onnxruntime_v1.20.1-default_config\/resnet50\/offline",
+        "framework":"onnxruntime v1.20.1",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.167.4-microsoft-standard-WSL2-glibc2.35)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"fp32"
+    },
+    "493":{
+        "Organization":"MLCommons",
+        "Availability":"available",
+        "Division":"open",
+        "SystemType":"edge",
+        "SystemName":"8c42efe93456",
+        "Platform":"8c42efe93456-reference-cpu-onnxruntime_v1.20.1-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"SingleStream",
+        "Result":61.337068,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"12th Gen Intel(R) Core(TM) i5-1240P",
+        "host_processors_per_node":1,
+        "host_processor_core_count":8,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"open\/MLCommons\/results\/8c42efe93456-reference-cpu-onnxruntime_v1.20.1-default_config\/resnet50\/singlestream",
+        "framework":"onnxruntime v1.20.1",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.167.4-microsoft-standard-WSL2-glibc2.35)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"fp32"
+    },
+    "494":{
+        "Organization":"MLCommons",
+        "Availability":"available",
+        "Division":"open",
         "SystemType":"datacenter,edge",
         "SystemName":"RTX4090x1",
         "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
@@ -14789,7 +14849,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "493":{
+    "495":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"open",
@@ -14819,7 +14879,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "494":{
+    "496":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -14849,7 +14909,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "495":{
+    "497":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -14879,7 +14939,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "496":{
+    "498":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -14909,7 +14969,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "497":{
+    "499":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -14939,7 +14999,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "498":{
+    "500":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -14969,7 +15029,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "499":{
+    "501":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -14999,7 +15059,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "500":{
+    "502":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15029,7 +15089,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "501":{
+    "503":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15059,7 +15119,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "502":{
+    "504":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15089,7 +15149,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "503":{
+    "505":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15119,7 +15179,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "504":{
+    "506":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15149,7 +15209,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "505":{
+    "507":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15179,7 +15239,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "506":{
+    "508":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15209,7 +15269,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "507":{
+    "509":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15239,7 +15299,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "508":{
+    "510":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15269,7 +15329,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "509":{
+    "511":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15299,7 +15359,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "510":{
+    "512":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15329,7 +15389,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "511":{
+    "513":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15359,7 +15419,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "512":{
+    "514":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15389,7 +15449,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "513":{
+    "515":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15419,7 +15479,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "514":{
+    "516":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15449,7 +15509,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "515":{
+    "517":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15479,7 +15539,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "516":{
+    "518":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15509,7 +15569,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "517":{
+    "519":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15539,7 +15599,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "518":{
+    "520":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15569,7 +15629,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "519":{
+    "521":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15599,7 +15659,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "520":{
+    "522":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15629,7 +15689,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "521":{
+    "523":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -15659,7 +15719,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "522":{
+    "524":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -15689,7 +15749,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "523":{
+    "525":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -15719,7 +15779,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "524":{
+    "526":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -15749,7 +15809,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "525":{
+    "527":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -15779,7 +15839,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "526":{
+    "528":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -15809,7 +15869,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "527":{
+    "529":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -15839,7 +15899,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "528":{
+    "530":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -15869,7 +15929,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "529":{
+    "531":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -15899,7 +15959,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "530":{
+    "532":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -15929,7 +15989,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "531":{
+    "533":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -15959,7 +16019,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "532":{
+    "534":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -15989,7 +16049,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "533":{
+    "535":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16019,7 +16079,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "534":{
+    "536":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16049,7 +16109,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "535":{
+    "537":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16079,7 +16139,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "536":{
+    "538":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16109,7 +16169,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "537":{
+    "539":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16139,7 +16199,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "538":{
+    "540":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16169,7 +16229,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "539":{
+    "541":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16199,7 +16259,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "540":{
+    "542":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16229,7 +16289,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "541":{
+    "543":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16259,7 +16319,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "542":{
+    "544":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16289,7 +16349,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "543":{
+    "545":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16319,7 +16379,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "544":{
+    "546":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -16349,7 +16409,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "545":{
+    "547":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
