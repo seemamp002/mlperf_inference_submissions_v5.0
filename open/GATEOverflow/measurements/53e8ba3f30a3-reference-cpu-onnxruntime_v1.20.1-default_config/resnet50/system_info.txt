@@ -5,7 +5,7 @@ Platform Details
 Linux 53e8ba3f30a3 5.15.167.4-microsoft-standard-WSL2 #1 SMP Tue Nov 5 00:21:55 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 ------------------------------------------------------------
 2. w
- 14:42:49 up  9:20,  0 users,  load average: 0.15, 0.10, 0.07
+ 16:28:18 up  4:46,  0 users,  load average: 0.38, 0.13, 0.16
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 ------------------------------------------------------------
 3. Username
@@ -31,7 +31,8 @@ virtual memory              (kbytes, -v) unlimited
 file locks                          (-x) unlimited
 ------------------------------------------------------------
 5. sysinfo process ancestry
-bash---bash---bash---mlcr---sh---bash---pstree
+bash---bash---bash-+-mlcr
+                   `-mlcr---sh---bash---pstree
 ------------------------------------------------------------
 6. /proc/cpuinfo
 processor	: 0
@@ -41,7 +42,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -55,7 +56,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -69,7 +70,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -83,7 +84,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -97,7 +98,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -111,7 +112,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -125,7 +126,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -139,7 +140,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -153,7 +154,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -167,7 +168,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -181,7 +182,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -195,7 +196,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -209,7 +210,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -223,7 +224,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -237,7 +238,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -251,7 +252,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -265,7 +266,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -279,7 +280,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -293,7 +294,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -307,7 +308,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -321,7 +322,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -335,7 +336,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -349,7 +350,7 @@ model		: 96
 model name	: AMD Ryzen 5 4600H with Radeon Graphics
 stepping	: 1
 microcode	: 0xffffffff
-cpu MHz		: 2994.263
+cpu MHz		: 2994.371
 cache size	: 512 KB
 physical id	: 0
 siblings	: 12
@@ -363,7 +364,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
-bogomips	: 5988.52
+bogomips	: 5988.74
 TLB size	: 3072 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -386,7 +387,7 @@ Thread(s) per core:                   2
 Core(s) per socket:                   6
 Socket(s):                            1
 Stepping:                             1
-BogoMIPS:                             5988.52
+BogoMIPS:                             5988.74
 Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
 Hypervisor vendor:                    Microsoft
 Virtualization type:                  full
@@ -414,42 +415,42 @@ No NUMA available on this system
 ------------------------------------------------------------
 9. /proc/meminfo
 MemTotal:        3753908 kB
-MemFree:         2469420 kB
-MemAvailable:    2863584 kB
-Buffers:            5524 kB
-Cached:           239340 kB
-SwapCached:        28316 kB
-Active:           197592 kB
-Inactive:         386072 kB
-Active(anon):      84648 kB
-Inactive(anon):   257168 kB
-Active(file):     112944 kB
-Inactive(file):   128904 kB
+MemFree:         2219480 kB
+MemAvailable:    2792824 kB
+Buffers:            6184 kB
+Cached:           200508 kB
+SwapCached:         9528 kB
+Active:           161236 kB
+Inactive:         443028 kB
+Active(anon):     100524 kB
+Inactive(anon):   299240 kB
+Active(file):      60712 kB
+Inactive(file):   143788 kB
 Unevictable:           0 kB
 Mlocked:               0 kB
 SwapTotal:       1048576 kB
-SwapFree:         789444 kB
-Dirty:               340 kB
-Writeback:           120 kB
-AnonPages:        324800 kB
-Mapped:           142668 kB
-Shmem:              2816 kB
-KReclaimable:     346596 kB
-Slab:             431968 kB
-SReclaimable:     346596 kB
-SUnreclaim:        85372 kB
-KernelStack:        8552 kB
-PageTables:         8684 kB
+SwapFree:         847072 kB
+Dirty:                96 kB
+Writeback:            12 kB
+AnonPages:        382844 kB
+Mapped:           111568 kB
+Shmem:              1968 kB
+KReclaimable:     563124 kB
+Slab:             657648 kB
+SReclaimable:     563124 kB
+SUnreclaim:        94524 kB
+KernelStack:        8376 kB
+PageTables:         8744 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:     2925528 kB
-Committed_AS:    3037144 kB
+Committed_AS:    2928088 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:       32992 kB
+VmallocUsed:       32512 kB
 VmallocChunk:          0 kB
-Percpu:             8384 kB
-AnonHugePages:    149504 kB
+Percpu:             8512 kB
+AnonHugePages:    266240 kB
 ShmemHugePages:        0 kB
 ShmemPmdMapped:        0 kB
 FileHugePages:         0 kB
@@ -460,9 +461,9 @@ HugePages_Rsvd:        0
 HugePages_Surp:        0
 Hugepagesize:       2048 kB
 Hugetlb:               0 kB
-DirectMap4k:      107520 kB
-DirectMap2M:     3756032 kB
-DirectMap1G:     8388608 kB
+DirectMap4k:       82944 kB
+DirectMap2M:     2732032 kB
+DirectMap1G:     9437184 kB
 ------------------------------------------------------------
 10. who -r
 ------------------------------------------------------------
@@ -693,16 +694,16 @@ dev.scsi.logging_level = 0
 dev.tty.ldisc_autoload = 0
 fs.aio-max-nr = 65536
 fs.aio-nr = 0
-fs.dentry-state = 298768	211890	45	0	19130	0
+fs.dentry-state = 491762	283719	45	0	17913	0
 fs.dir-notify-enable = 1
 fs.epoll.max_user_watches = 834092
 fs.fanotify.max_queued_events = 16384
 fs.fanotify.max_user_groups = 128
 fs.fanotify.max_user_marks = 31162
 fs.file-max = 9223372036854775807
-fs.file-nr = 2016	0	9223372036854775807
-fs.inode-nr = 279571	7510
-fs.inode-state = 279571	7510	0	0	0	0	0
+fs.file-nr = 2048	0	9223372036854775807
+fs.inode-nr = 476353	13851
+fs.inode-state = 476353	13851	0	0	0	0	0
 fs.inotify.max_queued_events = 16384
 fs.inotify.max_user_instances = 8192
 fs.inotify.max_user_watches = 1048576
@@ -740,7 +741,7 @@ fs.quota.drops = 0
 fs.quota.free_dquots = 0
 fs.quota.lookups = 0
 fs.quota.reads = 0
-fs.quota.syncs = 24
+fs.quota.syncs = 20
 fs.quota.writes = 0
 fs.suid_dumpable = 0
 fs.xfs.error_level = 3
@@ -794,7 +795,7 @@ kernel.msgmax = 8192
 kernel.msgmnb = 16384
 kernel.msgmni = 32000
 kernel.ngroups_max = 65536
-kernel.ns_last_pid = 38260
+kernel.ns_last_pid = 27889
 kernel.oops_all_cpu_backtrace = 0
 kernel.oops_limit = 10000
 kernel.osrelease = 5.15.167.4-microsoft-standard-WSL2
@@ -823,13 +824,13 @@ kernel.printk_devkmsg = on
 kernel.printk_ratelimit = 5
 kernel.printk_ratelimit_burst = 10
 kernel.pty.max = 4096
-kernel.pty.nr = 9
+kernel.pty.nr = 10
 kernel.pty.reserve = 1024
-kernel.random.boot_id = ac5bd067-b0ed-4e75-8074-538a0bf5ae3f
+kernel.random.boot_id = 4c24db57-8fda-40df-af47-b56397303f5c
 kernel.random.entropy_avail = 256
 kernel.random.poolsize = 256
 kernel.random.urandom_min_reseed_secs = 60
-kernel.random.uuid = f5f56816-0c40-48df-bc8e-3d64afabab9d
+kernel.random.uuid = 593b42d4-7f15-4533-b838-09664020bdc3
 kernel.random.write_wakeup_threshold = 256
 kernel.randomize_va_space = 2
 kernel.real-root-dev = 0
@@ -1563,7 +1564,7 @@ vm.percpu_pagelist_high_fraction = 0
 vm.stat_interval = 30
 vm.swappiness = 60
 vm.unprivileged_userfaultfd = 0
-vm.user_reserve_kbytes = 116786
+vm.user_reserve_kbytes = 116790
 vm.vfs_cache_pressure = 100
 vm.watermark_boost_factor = 0
 vm.watermark_scale_factor = 10
@@ -1594,13 +1595,13 @@ loop0   7:0    0   493M  1 loop
 loop1   7:1    0 615.1M  1 loop 
 sda     8:0    0 388.4M  1 disk 
 sdb     8:16   0     1G  0 disk [SWAP]
-sdc     8:32   0     1T  0 disk 
-sdd     8:48   0     1T  0 disk /etc/hosts
-                                /etc/hostname
-                                /etc/resolv.conf
-sde     8:64   0     1T  0 disk /home/mlcuser/MLC/repos/local/cache/get-mlperf-inference-submission-dir_ce712fc6
+sdc     8:32   0     1T  0 disk /home/mlcuser/MLC/repos/local/cache/get-mlperf-inference-submission-dir_ce712fc6
                                 /home/mlcuser/MLC/repos/local/cache/get-mlperf-inference-results-dir_1c43cc06
                                 /home/mlcuser/MLC/repos/local/cache/get-dataset-imagenet-val_98739b94
+sdd     8:48   0     1T  0 disk 
+sde     8:64   0     1T  0 disk /etc/hosts
+                                /etc/hostname
+                                /etc/resolv.conf
 ------------------------------------------------------------
 20. /sys/devices/virtual/dmi/id
 ------------------------------------------------------------
