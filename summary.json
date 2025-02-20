@@ -36993,6 +36993,96 @@
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"MacBookPro.ultrahub",
+        "Platform":"MacBookPro.ultrahub-reference-cpu-tf_v2.18.0-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"Offline",
+        "Result":67.0714,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/GATEOverflow\/results\/MacBookPro.ultrahub-reference-cpu-tf_v2.18.0-default_config\/resnet50\/offline",
+        "framework":"tf v2.18.0",
+        "operating_system":" (darwin-24.3.0)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"fp32"
+    },
+    "1234":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"MacBookPro.ultrahub",
+        "Platform":"MacBookPro.ultrahub-reference-cpu-tf_v2.18.0-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"SingleStream",
+        "Result":47.651583,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/GATEOverflow\/results\/MacBookPro.ultrahub-reference-cpu-tf_v2.18.0-default_config\/resnet50\/singlestream",
+        "framework":"tf v2.18.0",
+        "operating_system":" (darwin-24.3.0)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"fp32"
+    },
+    "1235":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"MacBookPro.ultrahub",
+        "Platform":"MacBookPro.ultrahub-reference-cpu-tf_v2.18.0-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"MultiStream",
+        "Result":175.426667,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/GATEOverflow\/results\/MacBookPro.ultrahub-reference-cpu-tf_v2.18.0-default_config\/resnet50\/multistream",
+        "framework":"tf v2.18.0",
+        "operating_system":" (darwin-24.3.0)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"fp32"
+    },
+    "1236":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
         "SystemType":"datacenter,edge",
         "SystemName":"RTX4090x1",
         "Platform":"RTX4090x1-nvidia-gpu-TensorRT-default_config",
@@ -37019,7 +37109,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1234":{
+    "1237":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37049,7 +37139,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1235":{
+    "1238":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37079,7 +37169,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "1236":{
+    "1239":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37109,7 +37199,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1237":{
+    "1240":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37139,7 +37229,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1238":{
+    "1241":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37169,7 +37259,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1239":{
+    "1242":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37199,7 +37289,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "1240":{
+    "1243":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37229,7 +37319,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1241":{
+    "1244":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37259,7 +37349,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1242":{
+    "1245":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37289,7 +37379,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1243":{
+    "1246":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37319,7 +37409,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "1244":{
+    "1247":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37349,7 +37439,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "1245":{
+    "1248":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37379,7 +37469,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1246":{
+    "1249":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37409,7 +37499,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1247":{
+    "1250":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37439,7 +37529,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "1248":{
+    "1251":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37469,7 +37559,187 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "1249":{
+    "1252":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"MacBookPro.ultrahub",
+        "Platform":"MacBookPro.ultrahub-reference-cpu-onnxruntime_v1.20.1-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"Offline",
+        "Result":66.3387,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/GATEOverflow\/results\/MacBookPro.ultrahub-reference-cpu-onnxruntime_v1.20.1-default_config\/resnet50\/offline",
+        "framework":"onnxruntime v1.20.1",
+        "operating_system":" (darwin-24.3.0)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"fp32"
+    },
+    "1253":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"MacBookPro.ultrahub",
+        "Platform":"MacBookPro.ultrahub-reference-cpu-onnxruntime_v1.20.1-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"SingleStream",
+        "Result":35.068542,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/GATEOverflow\/results\/MacBookPro.ultrahub-reference-cpu-onnxruntime_v1.20.1-default_config\/resnet50\/singlestream",
+        "framework":"onnxruntime v1.20.1",
+        "operating_system":" (darwin-24.3.0)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"fp32"
+    },
+    "1254":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"MacBookPro.ultrahub",
+        "Platform":"MacBookPro.ultrahub-reference-cpu-onnxruntime_v1.20.1-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"MultiStream",
+        "Result":228.140375,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/GATEOverflow\/results\/MacBookPro.ultrahub-reference-cpu-onnxruntime_v1.20.1-default_config\/resnet50\/multistream",
+        "framework":"onnxruntime v1.20.1",
+        "operating_system":" (darwin-24.3.0)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"fp32"
+    },
+    "1255":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"MacBookPro.ultrahub",
+        "Platform":"MacBookPro.ultrahub-mlcommons_cpp-cpu-onnxruntime-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"Offline",
+        "Result":38.7597,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/GATEOverflow\/results\/MacBookPro.ultrahub-mlcommons_cpp-cpu-onnxruntime-default_config\/resnet50\/offline",
+        "framework":"onnxruntime",
+        "operating_system":" (darwin-24.3.0)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s",
+        "weight_data_types":"fp32"
+    },
+    "1256":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"MacBookPro.ultrahub",
+        "Platform":"MacBookPro.ultrahub-mlcommons_cpp-cpu-onnxruntime-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"SingleStream",
+        "Result":36.493667,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/GATEOverflow\/results\/MacBookPro.ultrahub-mlcommons_cpp-cpu-onnxruntime-default_config\/resnet50\/singlestream",
+        "framework":"onnxruntime",
+        "operating_system":" (darwin-24.3.0)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"fp32"
+    },
+    "1257":{
+        "Organization":"GATEOverflow",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"MacBookPro.ultrahub",
+        "Platform":"MacBookPro.ultrahub-mlcommons_cpp-cpu-onnxruntime-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"MultiStream",
+        "Result":230.201833,
+        "Accuracy":"acc: 76.456",
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/GATEOverflow\/results\/MacBookPro.ultrahub-mlcommons_cpp-cpu-onnxruntime-default_config\/resnet50\/multistream",
+        "framework":"onnxruntime",
+        "operating_system":" (darwin-24.3.0)",
+        "notes":null,
+        "compliance":1,
+        "errors":0,
+        "version":"v5.0",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)",
+        "weight_data_types":"fp32"
+    },
+    "1258":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37499,7 +37769,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1250":{
+    "1259":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37529,7 +37799,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1251":{
+    "1260":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37559,7 +37829,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "1252":{
+    "1261":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37589,7 +37859,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1253":{
+    "1262":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37619,7 +37889,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1254":{
+    "1263":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37649,7 +37919,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1255":{
+    "1264":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37679,7 +37949,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "1256":{
+    "1265":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37709,7 +37979,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "1257":{
+    "1266":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37739,7 +38009,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1258":{
+    "1267":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37769,7 +38039,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1259":{
+    "1268":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37799,7 +38069,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "1260":{
+    "1269":{
         "Organization":"GATEOverflow",
         "Availability":"available",
         "Division":"closed",
@@ -37829,7 +38099,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "1261":{
+    "1270":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -37859,7 +38129,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "1262":{
+    "1271":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -37889,7 +38159,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1263":{
+    "1272":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -37919,7 +38189,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1264":{
+    "1273":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -37949,7 +38219,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1265":{
+    "1274":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -37979,7 +38249,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "1266":{
+    "1275":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38009,7 +38279,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1267":{
+    "1276":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38039,7 +38309,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1268":{
+    "1277":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38069,7 +38339,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1269":{
+    "1278":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38099,7 +38369,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1270":{
+    "1279":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38129,7 +38399,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1271":{
+    "1280":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38159,7 +38429,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "1272":{
+    "1281":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38189,7 +38459,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1273":{
+    "1282":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38219,7 +38489,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1274":{
+    "1283":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38249,7 +38519,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1275":{
+    "1284":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38279,7 +38549,7 @@
         "Units":"Queries\/s",
         "weight_data_types":"int8"
     },
-    "1276":{
+    "1285":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38309,7 +38579,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1277":{
+    "1286":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38339,7 +38609,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1278":{
+    "1287":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38369,7 +38639,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1279":{
+    "1288":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38399,7 +38669,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "1280":{
+    "1289":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38429,7 +38699,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"fp16"
     },
-    "1281":{
+    "1290":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38459,7 +38729,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"int8"
     },
-    "1282":{
+    "1291":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38489,7 +38759,7 @@
         "Units":"Latency (ms)",
         "weight_data_types":"int8"
     },
-    "1283":{
+    "1292":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
@@ -38519,7 +38789,7 @@
         "Units":"Samples\/s",
         "weight_data_types":"fp16"
     },
-    "1284":{
+    "1293":{
         "Organization":"MLCommons",
         "Availability":"available",
         "Division":"closed",
