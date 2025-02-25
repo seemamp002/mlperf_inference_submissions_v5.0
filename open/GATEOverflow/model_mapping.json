@@ -79,7 +79,7 @@
   "mobilenet-v1-precision_uint8-0.75-160": "resnet",
   "mobilenet-v1-precision_float-0.25-192": "resnet",
   "mobilenet-v2-precision_uint8-1.0-128": "resnet",
-  "mobilenet-v1-precision_float-0.5-224": "resnet"
+  "mobilenet-v1-precision_float-0.5-224": "resnet",
   "bert-base-pruned90-none-bert-99": "bert-99",
   "mobilebert-base_quant-none-bert-99": "bert-99",
   "obert-large-pruned97-none-bert-99": "bert-99",
