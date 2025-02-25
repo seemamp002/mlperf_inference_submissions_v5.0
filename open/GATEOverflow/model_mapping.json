@@ -1,7 +1,4 @@
 {
-  "bert-base-pruned95_obs_quant-none-bert-99": "bert-99",
-  "mobilebert-base_quant-none-bert-99": "bert-99",
-  "mobilebert-14layer_pruned50-none-vnni-bert-99": "bert-99"
   "mobilenet-v1-precision_float-0.75-192": "resnet",
   "mobilenet-v1-precision_uint8-0.5-128": "resnet",
   "mobilenet-v1-precision_uint8-0.5-224": "resnet",
@@ -83,4 +80,18 @@
   "mobilenet-v1-precision_float-0.25-192": "resnet",
   "mobilenet-v2-precision_uint8-1.0-128": "resnet",
   "mobilenet-v1-precision_float-0.5-224": "resnet"
+  "bert-base-pruned90-none-bert-99": "bert-99",
+  "mobilebert-base_quant-none-bert-99": "bert-99",
+  "obert-large-pruned97-none-bert-99": "bert-99",
+  "mobilebert-none-base-none-bert-99": "bert-99",
+  "mobilebert-14layer_pruned50-none-vnni-bert-99": "bert-99",
+  "obert-base-pruned90-none-bert-99": "bert-99",
+  "bert-large-base-none-bert-99": "bert-99",
+  "bert-large-pruned80_quant-none-vnni-bert-99": "bert-99",
+  "obert-large-pruned95_quant-none-vnni-bert-99": "bert-99",
+  "obert-large-base-none-bert-99": "bert-99",
+  "bert-base-pruned95_obs_quant-none-bert-99": "bert-99",
+  "mobilebert-14layer_pruned50_quant-none-vnni-bert-99": "bert-99",
+  "obert-large-pruned95-none-vnni-bert-99": "bert-99",
+  "obert-large-pruned97-quant-none-bert-99": "bert-99"
 }

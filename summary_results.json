@@ -3380,7 +3380,7 @@
     "Code": "https://github.com/mlcommons/submissions_inference_5.0/tree/main/open/GATEOverflow/code",
     "Unique ID (e.g. for Audit)": "edge/open/GATEOverflow/Asus_Tuf-reference-cpu-onnxruntime_v1.20.1-default_config/resnet50",
     "ColorKey": "availableGATEOverflow",
-    "Performance_Result": 502.542248,
+    "Performance_Result": 594.391617,
     "Performance_Units": "Latency (ms)"
   },
   {
@@ -3416,7 +3416,7 @@
     "Code": "https://github.com/mlcommons/submissions_inference_5.0/tree/main/open/GATEOverflow/code",
     "Unique ID (e.g. for Audit)": "edge/open/GATEOverflow/Asus_Tuf-reference-cpu-onnxruntime_v1.20.1-default_config/resnet50",
     "ColorKey": "availableGATEOverflow",
-    "Performance_Result": 17.0229,
+    "Performance_Result": 15.7942,
     "Performance_Units": "Samples/s"
   },
   {
@@ -3452,7 +3452,7 @@
     "Code": "https://github.com/mlcommons/submissions_inference_5.0/tree/main/open/GATEOverflow/code",
     "Unique ID (e.g. for Audit)": "edge/open/GATEOverflow/Asus_Tuf-reference-cpu-onnxruntime_v1.20.1-default_config/resnet50",
     "ColorKey": "availableGATEOverflow",
-    "Performance_Result": 88.252341,
+    "Performance_Result": 56.676177,
     "Performance_Units": "Latency (ms)"
   },
   {
