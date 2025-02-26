@@ -141,21 +141,21 @@
       }
     },
     {
-      "get,ml-model,image-classification,resnet50,raw,_fp32,_onnx": {
+      "get,ml-model,image-classification,resnet50,raw,_onnx,_fp32": {
         "script_uid": "56203e4e998b4bc0",
         "script_alias": "get-ml-model-resnet50",
         "script_tags": "get,raw,ml-model,resnet50,ml-model-resnet50,image-classification",
-        "script_variations": "fp32,onnx",
+        "script_variations": "onnx,fp32",
         "version": "",
         "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( onnxruntime,_resnet50,_offline,_cpu,_fp32 )"
       }
     },
     {
-      "get,dataset,image-classification,imagenet,preprocessed,_full,_NCHW": {
+      "get,dataset,image-classification,imagenet,preprocessed,_-for.mobilenet,_NCHW,_full": {
         "script_uid": "f259d490bbaf45f5",
         "script_alias": "get-preprocessed-dataset-imagenet",
         "script_tags": "get,dataset,imagenet,ILSVRC,image-classification,preprocessed",
-        "script_variations": "full,NCHW",
+        "script_variations": "-for.mobilenet,NCHW,full",
         "version": "",
         "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( onnxruntime,_resnet50,_offline,_cpu,_fp32 )"
       }
@@ -276,7 +276,7 @@
         "script_alias": "get-mlperf-inference-src",
         "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
         "script_variations": "",
-        "version": "master-git-fa5d4f74abd2ef277bddead8773e26214fddb39b",
+        "version": "custom-git-19561e2ae38745d66a3a0decb4ea5881abc39bd4",
         "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( onnxruntime,_resnet50,_offline,_cpu,_fp32 )"
       }
     },
