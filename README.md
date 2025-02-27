@@ -1,21 +1,21 @@
 Please download [summary.xlsx](summary.xlsx) to view the most recent results. [This page](https://docs.google.com/spreadsheets/d/e/2PACX-1vSCu8F7Hwck-AGJ5kWxi2G3xhO5MJoc_igybvsxjCt-2fEEYyf2BIcR0rTXW0eUzg/pubhtml) shows the results which may not be the latest. 
  ```
-[2025-02-27 18:34:37,145 submission_checker.py:3263 INFO] Results=2103, NoResults=0, Power Results=0
-[2025-02-27 18:34:37,145 submission_checker.py:3270 INFO] ---
-[2025-02-27 18:34:37,145 submission_checker.py:3271 INFO] Closed Results=71, Closed Power Results=0
+[2025-02-27 18:40:49,436 submission_checker.py:3263 INFO] Results=2460, NoResults=0, Power Results=0
+[2025-02-27 18:40:49,436 submission_checker.py:3270 INFO] ---
+[2025-02-27 18:40:49,436 submission_checker.py:3271 INFO] Closed Results=71, Closed Power Results=0
 
-[2025-02-27 18:34:37,145 submission_checker.py:3276 INFO] Open Results=2032, Open Power Results=0
+[2025-02-27 18:40:49,436 submission_checker.py:3276 INFO] Open Results=2389, Open Power Results=0
 
-[2025-02-27 18:34:37,146 submission_checker.py:3281 INFO] Network Results=0, Network Power Results=0
+[2025-02-27 18:40:49,436 submission_checker.py:3281 INFO] Network Results=0, Network Power Results=0
 
-[2025-02-27 18:34:37,146 submission_checker.py:3286 INFO] ---
-[2025-02-27 18:34:37,146 submission_checker.py:3288 INFO] Systems=29, Power Systems=0
-[2025-02-27 18:34:37,146 submission_checker.py:3292 INFO] Closed Systems=11, Closed Power Systems=0
-[2025-02-27 18:34:37,146 submission_checker.py:3297 INFO] Open Systems=24, Open Power Systems=0
-[2025-02-27 18:34:37,146 submission_checker.py:3302 INFO] Network Systems=0, Network Power Systems=0
-[2025-02-27 18:34:37,146 submission_checker.py:3307 INFO] ---
-[2025-02-27 18:34:37,146 submission_checker.py:3312 INFO] SUMMARY: submission looks OK
-[2025-02-27 18:34:40,103 module.py:5474 INFO] -        ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/run-mlperf-inference-submission-checker/customize.py
+[2025-02-27 18:40:49,436 submission_checker.py:3286 INFO] ---
+[2025-02-27 18:40:49,437 submission_checker.py:3288 INFO] Systems=31, Power Systems=0
+[2025-02-27 18:40:49,437 submission_checker.py:3292 INFO] Closed Systems=11, Closed Power Systems=0
+[2025-02-27 18:40:49,437 submission_checker.py:3297 INFO] Open Systems=26, Open Power Systems=0
+[2025-02-27 18:40:49,437 submission_checker.py:3302 INFO] Network Systems=0, Network Power Systems=0
+[2025-02-27 18:40:49,437 submission_checker.py:3307 INFO] ---
+[2025-02-27 18:40:49,437 submission_checker.py:3312 INFO] SUMMARY: submission looks OK
+[2025-02-27 18:40:52,577 module.py:5474 INFO] -        ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/run-mlperf-inference-submission-checker/customize.py
 
 ```
 
