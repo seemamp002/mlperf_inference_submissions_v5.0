@@ -1,4 +1,7 @@
 {
+  "bert-base-pruned95_obs_quant-none-bert-99": "bert-99",
+  "mobilebert-base_quant-none-bert-99": "bert-99",
+  "mobilebert-14layer_pruned50-none-vnni-bert-99": "bert-99",
   "mobilenet-v2-precision_float-0.75-128": "resnet",
   "mobilenet-v1-precision_float-0.25-160": "resnet",
   "mobilenet-v2-precision_float-1.0-160": "resnet",
