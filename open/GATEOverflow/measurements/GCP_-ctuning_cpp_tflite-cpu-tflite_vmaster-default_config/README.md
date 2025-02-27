@@ -1,70 +1,42 @@
-| Model                                               | Scenario     | Accuracy   |   Throughput |   Latency (in ms) |
+| Model                                               | Scenario     |   Accuracy |   Throughput |   Latency (in ms) |
 |-----------------------------------------------------|--------------|------------|--------------|-------------------|
-| mobilenet-v1-precision_float-0.75-224               | singlestream | 69.262     |       57.297 |            17.453 |
-| mobilenet-v2-precision_float-1.0-224                | singlestream | 71.77      |       55.282 |            18.089 |
-| mobilenet-v2-precision_float-0.35-224               | singlestream | 60.974     |      220.848 |             4.528 |
-| mobilenet-v2-precision_float-1.0-160                | singlestream | 69.016     |      104.417 |             9.577 |
-| mobilenet-v2-precision_float-0.75-160               | singlestream | 66.75      |      145.201 |             6.887 |
-| mobilenet-v1-precision_float-0.5-192                | singlestream | 63.244     |      161.996 |             6.173 |
-| mobilenet-v1-precision_uint8-0.5-224                | singlestream | -          |              |                   |
-| mobilenet-v1-precision_float-0.5-128                | singlestream | 57.918     |      348.797 |             2.867 |
-| mobilenet-v2-precision_uint8-0.5-192                | singlestream | -          |              |                   |
-| mobilenet-v2-precision_float-0.5-160                | singlestream | 61.668     |      281.611 |             3.551 |
-| mobilenet-v1-precision_float-0.75-128               | singlestream | 63.716     |      170.3   |             5.872 |
-| mobilenet-v2-precision_float-0.5-128                | singlestream | 58.402     |      430.108 |             2.325 |
-| mobilenet-v1-precision_float-1.0-160                | singlestream | 69.106     |       62.438 |            16.016 |
-| mobilenet-v2-precision_float-0.35-128               | singlestream | 52.172     |      625     |             1.6   |
-| mobilenet-v3-precision_float-large-224              | singlestream | 75.76      |       67.741 |            14.762 |
-| mobilenet-v2-precision_uint8-0.75-160               | singlestream | -          |              |                   |
-| mobilenet-v2-precision_float-1.0-192                | singlestream | 70.74      |       76.429 |            13.084 |
-| mobilenet-v1-precision_uint8-0.5-128                | singlestream | -          |              |                   |
-| mobilenet-v1-precision_uint8-0.75-224               | singlestream | -          |              |                   |
-| mobilenet-v1-precision_uint8-0.75-160               | singlestream | -          |              |                   |
-| efficientnet-fp32-lite0                             | singlestream | 75.068     |       41.183 |            24.282 |
-| mobilenet-v1-precision_float-1.0-128                | singlestream | 66.604     |       96.071 |            10.409 |
-| mobilenet-v1-precision_float-0.25-128               | singlestream | 44.116     |     1095.29  |             0.913 |
-| mobilenet-v1-precision_float-0.25-160               | singlestream | 47.81      |      710.227 |             1.408 |
-| mobilenet-v3-precision_float-small-224              | singlestream | 68.336     |      222.568 |             4.493 |
-| mobilenet-v1-precision_float-0.75-160               | singlestream | 66.384     |      109.445 |             9.137 |
-| mobilenet-v3-precision_float-small-minimalistic-224 | singlestream | 63.33      |      289.436 |             3.455 |
-| mobilenet-v1-precision_uint8-1.0-192                | singlestream | -          |              |                   |
-| mobilenet-v1-precision_float-0.75-192               | singlestream | 68.242     |       78.703 |            12.706 |
-| mobilenet-v2-precision_uint8-0.5-160                | singlestream | -          |              |                   |
-| mobilenet-v1-precision_uint8-1.0-128                | singlestream | -          |              |                   |
-| mobilenet-v2-precision_uint8-0.75-128               | singlestream | -          |              |                   |
-| mobilenet-v2-precision_uint8-0.35-192               | singlestream | -          |              |                   |
-| mobilenet-v2-precision_float-0.75-128               | singlestream | 64.038     |      225.887 |             4.427 |
-| mobilenet-v2-precision_float-0.5-192                | singlestream | 64.282     |      205.128 |             4.875 |
-| mobilenet-v1-precision_uint8-1.0-224                | singlestream | -          |              |                   |
-| mobilenet-v1-precision_uint8-0.25-128               | singlestream | -          |              |                   |
-| mobilenet-v2-precision_uint8-1.0-160                | singlestream | -          |              |                   |
-| mobilenet-v1-precision_uint8-1.0-160                | singlestream | -          |              |                   |
-| mobilenet-v3-precision_float-large-minimalistic-224 | singlestream | 72.678     |       78.852 |            12.682 |
-| mobilenet-v2-precision_uint8-0.5-128                | singlestream | -          |              |                   |
-| mobilenet-v1-precision_uint8-0.25-224               | singlestream | -          |              |                   |
-| mobilenet-v1-precision_uint8-0.75-128               | singlestream | -          |              |                   |
-| mobilenet-v2-precision_float-0.75-192               | singlestream | 68.834     |      105.675 |             9.463 |
-| mobilenet-v2-precision_float-1.0-128                | singlestream | 66.036     |      161.891 |             6.177 |
-| mobilenet-v2-precision_uint8-0.75-224               | singlestream | -          |              |                   |
-| mobilenet-v2-precision_float-0.35-160               | singlestream | 56.988     |      412.712 |             2.423 |
-| mobilenet-v1-precision_float-0.25-224               | singlestream | 51.848     |      373.692 |             2.676 |
-| mobilenet-v2-precision_float-0.5-224                | singlestream | 65.75      |      150.105 |             6.662 |
-| mobilenet-v2-precision_uint8-1.0-224                | singlestream | -          |              |                   |
-| mobilenet-v1-precision_float-0.25-192               | singlestream | 49.478     |      513.347 |             1.948 |
-| mobilenet-v1-precision_float-1.0-224                | singlestream | 71.678     |       32.662 |            30.617 |
-| mobilenet-v1-precision_uint8-0.75-192               | singlestream | -          |              |                   |
-| mobilenet-v2-precision_uint8-0.75-192               | singlestream | -          |              |                   |
-| mobilenet-v1-precision_float-0.5-160                | singlestream | 60.842     |      225.836 |             4.428 |
-| efficientnet-fp32-lite1                             | singlestream | 76.642     |       27.029 |            36.997 |
-| mobilenet-v1-precision_uint8-0.5-192                | singlestream | -          |              |                   |
-| mobilenet-v1-precision_float-0.5-224                | singlestream | 64.346     |      118.022 |             8.473 |
-| mobilenet-v2-precision_uint8-0.5-224                | singlestream | -          |              |                   |
-| mobilenet-v1-precision_uint8-0.25-192               | singlestream | -          |              |                   |
-| mobilenet-v1-precision_float-1.0-192                | singlestream | 70.626     |       45.1   |            22.173 |
-| mobilenet-v2-precision_float-0.35-192               | singlestream | 59.324     |      302.389 |             3.307 |
-| mobilenet-v1-precision_uint8-0.5-160                | singlestream | -          |              |                   |
-| mobilenet-v2-precision_float-0.75-224               | singlestream | 70.122     |       76.953 |            12.995 |
-| mobilenet-v2-precision_uint8-1.0-192                | singlestream | -          |              |                   |
-| mobilenet-v2-precision_uint8-1.0-128                | singlestream | -          |              |                   |
-| mobilenet-v1-precision_uint8-0.25-160               | singlestream | -          |              |                   |
-| mobilenet-v2-precision_uint8-0.35-224               | singlestream | -          |              |                   |
+| mobilenet-v1-precision_uint8-1.0-192                | singlestream |     70.012 |       26.366 |            37.927 |
+| mobilenet-v2-precision_uint8-1.0-160                | singlestream |     67.74  |       62.885 |            15.902 |
+| mobilenet-v2-precision_uint8-0.75-224               | singlestream |     68.688 |       43.653 |            22.908 |
+| mobilenet-v2-precision_uint8-0.75-128               | singlestream |     62.018 |      133.618 |             7.484 |
+| mobilenet-v1-precision_uint8-0.25-224               | singlestream |     50.224 |      212.721 |             4.701 |
+| mobilenet-v1-precision_uint8-0.5-160                | singlestream |     59.48  |      134.21  |             7.451 |
+| mobilenet-v1-precision_uint8-0.25-128               | singlestream |     42.31  |      645.995 |             1.548 |
+| mobilenet-v3-precision_uint8-large-224              | singlestream |     72.906 |       42.003 |            23.808 |
+| mobilenet-v1-precision_uint8-1.0-224                | singlestream |     70.79  |       19.235 |            51.989 |
+| mobilenet-v1-precision_uint8-0.25-192               | singlestream |     48.074 |      290.192 |             3.446 |
+| mobilenet-v3-precision_uint8-large-minimalistic-224 | singlestream |     70.444 |       46.361 |            21.57  |
+| efficientnet-int8-lite3                             | singlestream |     76.364 |       30.441 |            32.85  |
+| mobilenet-v2-precision_uint8-0.5-224                | singlestream |     63.702 |       92.498 |            10.811 |
+| mobilenet-v1-precision_uint8-0.75-192               | singlestream |     67.198 |       44.619 |            22.412 |
+| efficientnet-int8-lite1                             | singlestream |     74.046 |       62.123 |            16.097 |
+| mobilenet-v2-precision_uint8-0.35-192               | singlestream |     56.604 |      184.434 |             5.422 |
+| mobilenet-v2-precision_uint8-0.5-192                | singlestream |     61.982 |      127.146 |             7.865 |
+| mobilenet-v1-precision_uint8-0.5-224                | singlestream |     62.374 |       69.262 |            14.438 |
+| mobilenet-v1-precision_uint8-0.5-192                | singlestream |     61.484 |       94.832 |            10.545 |
+| mobilenet-v2-precision_uint8-0.35-224               | singlestream |     58.528 |      135.007 |             7.407 |
+| mobilenet-v2-precision_uint8-1.0-224                | singlestream |     70.662 |       32.657 |            30.621 |
+| mobilenet-v2-precision_uint8-0.75-160               | singlestream |     64.996 |       84.267 |            11.867 |
+| mobilenet-v1-precision_uint8-1.0-160                | singlestream |     68.24  |       37.269 |            26.832 |
+| mobilenet-v1-precision_uint8-0.25-160               | singlestream |     45.492 |      412.201 |             2.426 |
+| mobilenet-v1-precision_uint8-0.75-128               | singlestream |     58.434 |       99.8   |            10.02  |
+| efficientnet-int8-lite2                             | singlestream |     74.158 |       45.796 |            21.836 |
+| mobilenet-v2-precision_uint8-0.35-160               | singlestream |     54.594 |      257.599 |             3.882 |
+| efficientnet-int8-lite4                             | singlestream |     78.544 |       17.974 |            55.635 |
+| mobilenet-v3-precision_uint8-small-224              | singlestream |     64.388 |      145.201 |             6.887 |
+| mobilenet-v2-precision_uint8-1.0-128                | singlestream |     63.602 |      100.281 |             9.972 |
+| mobilenet-v2-precision_uint8-0.5-128                | singlestream |     55.506 |      279.955 |             3.572 |
+| mobilenet-v2-precision_uint8-1.0-192                | singlestream |     69.68  |       45.057 |            22.194 |
+| mobilenet-v1-precision_uint8-1.0-128                | singlestream |     64.792 |       58.955 |            16.962 |
+| mobilenet-v2-precision_uint8-0.75-192               | singlestream |     67.496 |       59.895 |            16.696 |
+| mobilenet-v1-precision_uint8-0.75-160               | singlestream |     64.122 |       63.151 |            15.835 |
+| efficientnet-int8-lite0                             | singlestream |     71.25  |       95.776 |            10.441 |
+| mobilenet-v1-precision_uint8-0.75-224               | singlestream |     68.084 |       32.607 |            30.668 |
+| mobilenet-v2-precision_uint8-0.5-160                | singlestream |     59.198 |      177.462 |             5.635 |
+| mobilenet-v2-precision_uint8-0.35-128               | singlestream |     49.168 |      402.414 |             2.485 |
+| mobilenet-v1-precision_uint8-0.5-128                | singlestream |     56.674 |      211.64  |             4.725 |
