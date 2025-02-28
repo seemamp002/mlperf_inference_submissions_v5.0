@@ -905,3 +905,226 @@
 [2025-02-28 16:38:04,416 module.py:5327 INFO] -        ! cd /home/runner/work/mlperf_inference_submissions_v5.0/mlperf_inference_submissions_v5.0
 [2025-02-28 16:38:04,416 module.py:5328 INFO] -        ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/convert-csv-to-md/run.sh from tmp-run.sh
 [2025-02-28 16:38:05,446 module.py:5474 INFO] -        ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/convert-csv-to-md/customize.py
+[2025-02-28 16:48:10,874 module.py:558 INFO] - * mlcr run,mlperf,inference,submission-checker
+[2025-02-28 16:48:10,882 module.py:558 INFO] -   * mlcr get,python3
+[2025-02-28 16:48:10,936 module.py:4094 INFO] -       * /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:10,937 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-python3_18639af0
+[2025-02-28 16:48:10,937 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-python3/run.sh from tmp-run.sh
+[2025-02-28 16:48:10,943 module.py:5474 INFO] -              ! call "detect_version" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-python3/customize.py
+[2025-02-28 16:48:10,945 module.py:4094 INFO] -       * /usr/bin/python3
+[2025-02-28 16:48:10,946 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-python3_18639af0
+[2025-02-28 16:48:10,946 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-python3/run.sh from tmp-run.sh
+[2025-02-28 16:48:10,951 module.py:5474 INFO] -              ! call "detect_version" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-python3/customize.py
+[2025-02-28 16:48:10,954 module.py:4163 INFO] -     Selected 0: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:10,954 module.py:4410 INFO] -       # Found artifact in /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:10,954 module.py:5327 INFO] -          ! cd /home/runner/MLC/repos/local/cache/get-python3_18639af0
+[2025-02-28 16:48:10,954 module.py:5328 INFO] -          ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-python3/run.sh from tmp-run.sh
+[2025-02-28 16:48:10,960 module.py:5474 INFO] -          ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-python3/customize.py
+[2025-02-28 16:48:10,966 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:10,966 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:48:10,985 module.py:558 INFO] -   * mlcr get,mlcommons,inference,src,_branch.dev
+[2025-02-28 16:48:10,993 module.py:558 INFO] -     * mlcr detect,os
+[2025-02-28 16:48:10,997 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-mlperf-inference-src_b51b3035
+[2025-02-28 16:48:10,997 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:48:11,018 module.py:5474 INFO] -            ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:48:11,039 module.py:558 INFO] -     * mlcr get,python3
+[2025-02-28 16:48:11,039 module.py:1270 INFO] -          ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:48:11,040 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:11,040 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:48:11,052 module.py:558 INFO] -     * mlcr get,git,repo,_branch.dev,_repo.https://github.com/mlcommons/inference
+[2025-02-28 16:48:11,060 module.py:558 INFO] -       * mlcr detect,os
+[2025-02-28 16:48:11,063 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-git-repo_e46a93a8
+[2025-02-28 16:48:11,063 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:48:11,084 module.py:5474 INFO] -              ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:48:11,092 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-git-repo_e46a93a8
+[2025-02-28 16:48:11,092 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-git-repo/run.sh from tmp-run.sh
+[2025-02-28 16:48:11,953 module.py:5474 INFO] -            ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-git-repo/customize.py
+[2025-02-28 16:48:11,960 module.py:2216 INFO] - CM cache path to the Git repo: /home/runner/MLC/repos/local/cache/get-git-repo_e46a93a8/inference
+[2025-02-28 16:48:11,961 module.py:5474 INFO] -          ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-mlperf-inference-src/customize.py
+[2025-02-28 16:48:12,038 module.py:558 INFO] -   * mlcr get,generic-python-lib,_xlsxwriter
+[2025-02-28 16:48:12,046 module.py:558 INFO] -     * mlcr detect,os
+[2025-02-28 16:48:12,049 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c9801e11
+[2025-02-28 16:48:12,049 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:48:12,071 module.py:5474 INFO] -            ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:48:12,080 module.py:558 INFO] -     * mlcr detect,cpu
+[2025-02-28 16:48:12,087 module.py:558 INFO] -       * mlcr detect,os
+[2025-02-28 16:48:12,090 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c9801e11
+[2025-02-28 16:48:12,090 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:48:12,112 module.py:5474 INFO] -              ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:48:12,120 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c9801e11
+[2025-02-28 16:48:12,120 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-cpu/run.sh from tmp-run.sh
+[2025-02-28 16:48:12,171 module.py:5474 INFO] -            ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-cpu/customize.py
+[2025-02-28 16:48:12,181 module.py:558 INFO] -     * mlcr get,python3
+[2025-02-28 16:48:12,182 module.py:1270 INFO] -          ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:48:12,182 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:12,182 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:48:12,238 module.py:558 INFO] -     * mlcr get,generic-python-lib,_pip
+[2025-02-28 16:48:12,246 module.py:558 INFO] -       * mlcr detect,os
+[2025-02-28 16:48:12,250 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_b2ded146
+[2025-02-28 16:48:12,250 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:48:12,271 module.py:5474 INFO] -              ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:48:12,282 module.py:558 INFO] -       * mlcr detect,cpu
+[2025-02-28 16:48:12,287 module.py:558 INFO] -         * mlcr detect,os
+[2025-02-28 16:48:12,290 module.py:5327 INFO] -                ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_b2ded146
+[2025-02-28 16:48:12,291 module.py:5328 INFO] -                ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:48:12,312 module.py:5474 INFO] -                ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:48:12,321 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_b2ded146
+[2025-02-28 16:48:12,321 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-cpu/run.sh from tmp-run.sh
+[2025-02-28 16:48:12,364 module.py:5474 INFO] -              ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-cpu/customize.py
+[2025-02-28 16:48:12,374 module.py:558 INFO] -       * mlcr get,python3
+[2025-02-28 16:48:12,374 module.py:1270 INFO] -            ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:48:12,375 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:12,375 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:48:12,379 module.py:5327 INFO] -                ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_b2ded146
+[2025-02-28 16:48:12,379 module.py:5328 INFO] -                ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/run.sh from tmp-run.sh
+[2025-02-28 16:48:12,437 module.py:5474 INFO] -                ! call "detect_version" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:48:12,442 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_b2ded146
+[2025-02-28 16:48:12,442 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/run.sh from tmp-run.sh
+[2025-02-28 16:48:12,501 module.py:5474 INFO] -            ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:48:12,514 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c9801e11
+[2025-02-28 16:48:12,515 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/run.sh from tmp-run.sh
+[2025-02-28 16:48:12,572 module.py:5474 INFO] -              ! call "detect_version" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:48:12,576 module.py:5327 INFO] -          ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c9801e11
+[2025-02-28 16:48:12,576 module.py:5328 INFO] -          ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/install.sh from tmp-run.sh
+[2025-02-28 16:48:13,344 module.py:5327 INFO] -          ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c9801e11
+[2025-02-28 16:48:13,344 module.py:5328 INFO] -          ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/run.sh from tmp-run.sh
+[2025-02-28 16:48:13,404 module.py:5474 INFO] -          ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:48:13,468 module.py:558 INFO] -   * mlcr get,generic-python-lib,_package.pyarrow
+[2025-02-28 16:48:13,476 module.py:558 INFO] -     * mlcr detect,os
+[2025-02-28 16:48:13,479 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_65642972
+[2025-02-28 16:48:13,479 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:48:13,501 module.py:5474 INFO] -            ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:48:13,513 module.py:558 INFO] -     * mlcr detect,cpu
+[2025-02-28 16:48:13,518 module.py:558 INFO] -       * mlcr detect,os
+[2025-02-28 16:48:13,522 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_65642972
+[2025-02-28 16:48:13,522 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:48:13,544 module.py:5474 INFO] -              ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:48:13,553 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_65642972
+[2025-02-28 16:48:13,553 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-cpu/run.sh from tmp-run.sh
+[2025-02-28 16:48:13,596 module.py:5474 INFO] -            ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-cpu/customize.py
+[2025-02-28 16:48:13,607 module.py:558 INFO] -     * mlcr get,python3
+[2025-02-28 16:48:13,608 module.py:1270 INFO] -          ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:48:13,608 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:13,608 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:48:13,664 module.py:558 INFO] -     * mlcr get,generic-python-lib,_pip
+[2025-02-28 16:48:13,672 module.py:558 INFO] -       * mlcr get,python3
+[2025-02-28 16:48:13,673 module.py:1270 INFO] -            ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:48:13,673 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:13,673 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:48:13,674 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_65642972
+[2025-02-28 16:48:13,674 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/validate_cache.sh from tmp-run.sh
+[2025-02-28 16:48:13,733 module.py:5474 INFO] -            ! call "detect_version" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:48:13,744 module.py:558 INFO] -       * mlcr get,python3
+[2025-02-28 16:48:13,745 module.py:1270 INFO] -            ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:48:13,745 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:13,745 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:48:13,746 module.py:1270 INFO] -          ! load /home/runner/MLC/repos/local/cache/get-generic-python-lib_b2ded146/mlc-cached-state.json
+[2025-02-28 16:48:13,750 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_65642972
+[2025-02-28 16:48:13,750 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/run.sh from tmp-run.sh
+[2025-02-28 16:48:13,808 module.py:5474 INFO] -              ! call "detect_version" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:48:13,813 module.py:5327 INFO] -          ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_65642972
+[2025-02-28 16:48:13,813 module.py:5328 INFO] -          ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/install.sh from tmp-run.sh
+[2025-02-28 16:48:16,175 module.py:5327 INFO] -          ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_65642972
+[2025-02-28 16:48:16,175 module.py:5328 INFO] -          ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/run.sh from tmp-run.sh
+[2025-02-28 16:48:16,235 module.py:5474 INFO] -          ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:48:16,299 module.py:558 INFO] -   * mlcr get,generic-python-lib,_pandas
+[2025-02-28 16:48:16,307 module.py:558 INFO] -     * mlcr detect,os
+[2025-02-28 16:48:16,310 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c71d07bc
+[2025-02-28 16:48:16,310 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:48:16,332 module.py:5474 INFO] -            ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:48:16,342 module.py:558 INFO] -     * mlcr detect,cpu
+[2025-02-28 16:48:16,347 module.py:558 INFO] -       * mlcr detect,os
+[2025-02-28 16:48:16,350 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c71d07bc
+[2025-02-28 16:48:16,351 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:48:16,372 module.py:5474 INFO] -              ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:48:16,381 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c71d07bc
+[2025-02-28 16:48:16,381 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-cpu/run.sh from tmp-run.sh
+[2025-02-28 16:48:16,423 module.py:5474 INFO] -            ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-cpu/customize.py
+[2025-02-28 16:48:16,434 module.py:558 INFO] -     * mlcr get,python3
+[2025-02-28 16:48:16,434 module.py:1270 INFO] -          ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:48:16,434 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:16,435 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:48:16,491 module.py:558 INFO] -     * mlcr get,generic-python-lib,_pip
+[2025-02-28 16:48:16,498 module.py:558 INFO] -       * mlcr get,python3
+[2025-02-28 16:48:16,499 module.py:1270 INFO] -            ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:48:16,499 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:16,499 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:48:16,500 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c71d07bc
+[2025-02-28 16:48:16,500 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/validate_cache.sh from tmp-run.sh
+[2025-02-28 16:48:16,559 module.py:5474 INFO] -            ! call "detect_version" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:48:16,570 module.py:558 INFO] -       * mlcr get,python3
+[2025-02-28 16:48:16,571 module.py:1270 INFO] -            ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:48:16,571 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:48:16,571 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:48:16,572 module.py:1270 INFO] -          ! load /home/runner/MLC/repos/local/cache/get-generic-python-lib_b2ded146/mlc-cached-state.json
+[2025-02-28 16:48:16,576 module.py:4221 INFO] -     - Searching for versions:  >= 1.0.0
+[2025-02-28 16:48:16,576 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c71d07bc
+[2025-02-28 16:48:16,576 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/run.sh from tmp-run.sh
+[2025-02-28 16:48:16,634 module.py:5474 INFO] -              ! call "detect_version" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:48:16,642 module.py:5327 INFO] -          ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c71d07bc
+[2025-02-28 16:48:16,642 module.py:5328 INFO] -          ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/install.sh from tmp-run.sh
+[2025-02-28 16:48:23,788 module.py:5327 INFO] -          ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_c71d07bc
+[2025-02-28 16:48:23,788 module.py:5328 INFO] -          ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/run.sh from tmp-run.sh
+[2025-02-28 16:48:23,852 module.py:5474 INFO] -          ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:48:23,864 module.py:5327 INFO] -        ! cd /home/runner/work/mlperf_inference_submissions_v5.0/mlperf_inference_submissions_v5.0
+[2025-02-28 16:48:23,864 module.py:5328 INFO] -        ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/run-mlperf-inference-submission-checker/run.sh from tmp-run.sh
+[2025-02-28 16:49:04,120 module.py:5474 INFO] -        ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/run-mlperf-inference-submission-checker/customize.py
+[2025-02-28 16:49:06,326 module.py:558 INFO] - * mlcr convert,from-csv,to-md
+[2025-02-28 16:49:06,335 module.py:558 INFO] -   * mlcr get,python3
+[2025-02-28 16:49:06,335 module.py:1270 INFO] -        ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:49:06,336 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:49:06,336 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:49:06,394 module.py:558 INFO] -   * mlcr get,generic-python-lib,_pandas
+[2025-02-28 16:49:06,401 module.py:558 INFO] -     * mlcr get,python3
+[2025-02-28 16:49:06,402 module.py:1270 INFO] -          ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:49:06,402 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:49:06,402 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:49:06,402 module.py:5327 INFO] -          ! cd /home/runner/work/mlperf_inference_submissions_v5.0/mlperf_inference_submissions_v5.0
+[2025-02-28 16:49:06,402 module.py:5328 INFO] -          ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/validate_cache.sh from tmp-run.sh
+[2025-02-28 16:49:06,463 module.py:5474 INFO] -          ! call "detect_version" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:49:06,474 module.py:558 INFO] -     * mlcr get,python3
+[2025-02-28 16:49:06,474 module.py:1270 INFO] -          ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:49:06,475 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:49:06,475 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:49:06,475 module.py:1270 INFO] -        ! load /home/runner/MLC/repos/local/cache/get-generic-python-lib_c71d07bc/mlc-cached-state.json
+[2025-02-28 16:49:06,531 module.py:558 INFO] -   * mlcr get,generic-python-lib,_package.tabulate
+[2025-02-28 16:49:06,538 module.py:558 INFO] -     * mlcr detect,os
+[2025-02-28 16:49:06,541 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_5501ec30
+[2025-02-28 16:49:06,541 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:49:06,562 module.py:5474 INFO] -            ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:49:06,573 module.py:558 INFO] -     * mlcr detect,cpu
+[2025-02-28 16:49:06,578 module.py:558 INFO] -       * mlcr detect,os
+[2025-02-28 16:49:06,581 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_5501ec30
+[2025-02-28 16:49:06,581 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/run.sh from tmp-run.sh
+[2025-02-28 16:49:06,602 module.py:5474 INFO] -              ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-os/customize.py
+[2025-02-28 16:49:06,611 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_5501ec30
+[2025-02-28 16:49:06,611 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-cpu/run.sh from tmp-run.sh
+[2025-02-28 16:49:06,652 module.py:5474 INFO] -            ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/detect-cpu/customize.py
+[2025-02-28 16:49:06,662 module.py:558 INFO] -     * mlcr get,python3
+[2025-02-28 16:49:06,663 module.py:1270 INFO] -          ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:49:06,663 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:49:06,663 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:49:06,720 module.py:558 INFO] -     * mlcr get,generic-python-lib,_pip
+[2025-02-28 16:49:06,727 module.py:558 INFO] -       * mlcr get,python3
+[2025-02-28 16:49:06,728 module.py:1270 INFO] -            ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:49:06,728 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:49:06,728 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:49:06,729 module.py:5327 INFO] -            ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_5501ec30
+[2025-02-28 16:49:06,729 module.py:5328 INFO] -            ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/validate_cache.sh from tmp-run.sh
+[2025-02-28 16:49:06,784 module.py:5474 INFO] -            ! call "detect_version" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:49:06,795 module.py:558 INFO] -       * mlcr get,python3
+[2025-02-28 16:49:06,796 module.py:1270 INFO] -            ! load /home/runner/MLC/repos/local/cache/get-python3_18639af0/mlc-cached-state.json
+[2025-02-28 16:49:06,796 module.py:2216 INFO] - Path to Python: /opt/hostedtoolcache/Python/3.10.16/x64/bin/python3
+[2025-02-28 16:49:06,796 module.py:2216 INFO] - Python version: 3.10.16
+[2025-02-28 16:49:06,797 module.py:1270 INFO] -          ! load /home/runner/MLC/repos/local/cache/get-generic-python-lib_b2ded146/mlc-cached-state.json
+[2025-02-28 16:49:06,801 module.py:5327 INFO] -              ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_5501ec30
+[2025-02-28 16:49:06,801 module.py:5328 INFO] -              ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/run.sh from tmp-run.sh
+[2025-02-28 16:49:06,855 module.py:5474 INFO] -              ! call "detect_version" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:49:06,860 module.py:5327 INFO] -          ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_5501ec30
+[2025-02-28 16:49:06,860 module.py:5328 INFO] -          ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/install.sh from tmp-run.sh
+[2025-02-28 16:49:07,524 module.py:5327 INFO] -          ! cd /home/runner/MLC/repos/local/cache/get-generic-python-lib_5501ec30
+[2025-02-28 16:49:07,525 module.py:5328 INFO] -          ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/run.sh from tmp-run.sh
+[2025-02-28 16:49:07,582 module.py:5474 INFO] -          ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/get-generic-python-lib/customize.py
+[2025-02-28 16:49:07,594 module.py:5327 INFO] -        ! cd /home/runner/work/mlperf_inference_submissions_v5.0/mlperf_inference_submissions_v5.0
+[2025-02-28 16:49:07,594 module.py:5328 INFO] -        ! call /home/runner/MLC/repos/mlcommons@mlperf-automations/script/convert-csv-to-md/run.sh from tmp-run.sh
+[2025-02-28 16:49:08,632 module.py:5474 INFO] -        ! call "postprocess" from /home/runner/MLC/repos/mlcommons@mlperf-automations/script/convert-csv-to-md/customize.py
