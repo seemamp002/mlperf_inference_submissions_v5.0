@@ -12,4 +12,5 @@
 | bert-base-pruned90-none-bert-99                     | offline    |    88.4204 |        3.48  | -                 |
 | mobilebert-base_quant-none-bert-99                  | offline    |    90.7887 |        7.819 | -                 |
 | obert-large-pruned95_quant-none-vnni-bert-99        | offline    |    90.0299 |        2.99  | -                 |
+| obert-large-pruned95-none-vnni-bert-99              | offline    |    90.1783 |        2.019 | -                 |
 | mobilebert-14layer_pruned50-none-vnni-bert-99       | offline    |    90.4308 |        8.646 | -                 |

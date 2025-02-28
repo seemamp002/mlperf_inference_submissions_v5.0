@@ -79,5 +79,6 @@
   "mobilenet-v2-precision_uint8-1.0-128": "resnet",
   "mobilenet-v1-precision_float-0.75-192": "resnet",
   "efficientnet-int8-lite4": "resnet",
-  "mobilenet-v1-precision_float-1.0-192": "resnet"
+  "mobilenet-v1-precision_float-1.0-192": "resnet",
+  "efficientnet-fp32-lite2": "resnet"
 }
