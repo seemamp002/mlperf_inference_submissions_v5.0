@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : TFLite_SUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90.0th percentile latency (ns) : 19813535
+90.0th percentile latency (ns) : 19744095
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (30307).
- * Would discard 2908 highest latency queries.
- * Early stopping 90.0th percentile estimate: 19814493
- * Early stopping 99.0th percentile estimate: 19919493
+ * Processed at least 64 queries (30451).
+ * Would discard 2922 highest latency queries.
+ * Early stopping 90.0th percentile estimate: 19744516
+ * Early stopping 99.0th percentile estimate: 19774274
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 50.51
-QPS w/o loadgen overhead        : 50.54
+QPS w/ loadgen overhead         : 50.75
+QPS w/o loadgen overhead        : 50.75
 
-Min latency (ns)                : 19622447
-Max latency (ns)                : 23468667
-Mean latency (ns)               : 19787707
-50.00 percentile latency (ns)   : 19782158
-90.00 percentile latency (ns)   : 19813535
-95.00 percentile latency (ns)   : 19834284
-97.00 percentile latency (ns)   : 19853206
-99.00 percentile latency (ns)   : 19907685
-99.90 percentile latency (ns)   : 20411486
+Min latency (ns)                : 19561790
+Max latency (ns)                : 20421615
+Mean latency (ns)               : 19702732
+50.00 percentile latency (ns)   : 19720029
+90.00 percentile latency (ns)   : 19744095
+95.00 percentile latency (ns)   : 19750987
+97.00 percentile latency (ns)   : 19756480
+99.00 percentile latency (ns)   : 19771188
+99.90 percentile latency (ns)   : 19869429
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 2000
+target_qps : 126.341
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000

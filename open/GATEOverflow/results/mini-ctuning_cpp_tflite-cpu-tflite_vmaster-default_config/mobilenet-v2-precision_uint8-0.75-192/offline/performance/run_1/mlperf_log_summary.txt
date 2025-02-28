@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : TFLite_SUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90.0th percentile latency (ns) : 5886223
+90.0th percentile latency (ns) : 5846846
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (101957).
- * Would discard 9971 highest latency queries.
- * Early stopping 90.0th percentile estimate: 5886293
- * Early stopping 99.0th percentile estimate: 5919470
+ * Processed at least 64 queries (102773).
+ * Would discard 10052 highest latency queries.
+ * Early stopping 90.0th percentile estimate: 5847095
+ * Early stopping 99.0th percentile estimate: 5882172
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 169.93
-QPS w/o loadgen overhead        : 170.21
+QPS w/ loadgen overhead         : 171.29
+QPS w/o loadgen overhead        : 171.32
 
-Min latency (ns)                : 5838727
-Max latency (ns)                : 6530694
-Mean latency (ns)               : 5875237
-50.00 percentile latency (ns)   : 5874907
-90.00 percentile latency (ns)   : 5886223
-95.00 percentile latency (ns)   : 5891391
-97.00 percentile latency (ns)   : 5897328
-99.00 percentile latency (ns)   : 5917933
-99.90 percentile latency (ns)   : 6002726
+Min latency (ns)                : 5808529
+Max latency (ns)                : 6222927
+Mean latency (ns)               : 5837129
+50.00 percentile latency (ns)   : 5834991
+90.00 percentile latency (ns)   : 5846846
+95.00 percentile latency (ns)   : 5853237
+97.00 percentile latency (ns)   : 5858949
+99.00 percentile latency (ns)   : 5880872
+99.90 percentile latency (ns)   : 5917411
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 2000
+target_qps : 425.515
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000

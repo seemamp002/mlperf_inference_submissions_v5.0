@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : TFLite_SUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90.0th percentile latency (ns) : 6051053
+90.0th percentile latency (ns) : 6014233
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (99126).
- * Would discard 9691 highest latency queries.
- * Early stopping 90.0th percentile estimate: 6051126
- * Early stopping 99.0th percentile estimate: 6085209
+ * Processed at least 64 queries (99984).
+ * Would discard 9776 highest latency queries.
+ * Early stopping 90.0th percentile estimate: 6014473
+ * Early stopping 99.0th percentile estimate: 6031055
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 165.21
-QPS w/o loadgen overhead        : 165.47
+QPS w/ loadgen overhead         : 166.64
+QPS w/o loadgen overhead        : 166.67
 
-Min latency (ns)                : 6004395
-Max latency (ns)                : 6869513
-Mean latency (ns)               : 6043262
-50.00 percentile latency (ns)   : 6040927
-90.00 percentile latency (ns)   : 6051053
-95.00 percentile latency (ns)   : 6057411
-97.00 percentile latency (ns)   : 6063766
-99.00 percentile latency (ns)   : 6083531
-99.90 percentile latency (ns)   : 6177616
+Min latency (ns)                : 5976069
+Max latency (ns)                : 6924956
+Mean latency (ns)               : 6000008
+50.00 percentile latency (ns)   : 5997531
+90.00 percentile latency (ns)   : 6014233
+95.00 percentile latency (ns)   : 6019673
+97.00 percentile latency (ns)   : 6022860
+99.00 percentile latency (ns)   : 6030364
+99.90 percentile latency (ns)   : 6070052
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 2000
+target_qps : 413.684
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000

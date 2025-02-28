@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : TFLite_SUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90.0th percentile latency (ns) : 996007
+90.0th percentile latency (ns) : 999308
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (600911).
- * Would discard 59549 highest latency queries.
- * Early stopping 90.0th percentile estimate: 996077
- * Early stopping 99.0th percentile estimate: 1015913
+ * Processed at least 64 queries (607309).
+ * Would discard 60186 highest latency queries.
+ * Early stopping 90.0th percentile estimate: 999439
+ * Early stopping 99.0th percentile estimate: 1046881
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 1001.52
-QPS w/o loadgen overhead        : 1012.14
+QPS w/ loadgen overhead         : 1012.18
+QPS w/o loadgen overhead        : 1014.42
 
-Min latency (ns)                : 960315
-Max latency (ns)                : 1453640
-Mean latency (ns)               : 988005
-50.00 percentile latency (ns)   : 986788
-90.00 percentile latency (ns)   : 996007
-95.00 percentile latency (ns)   : 1001176
-97.00 percentile latency (ns)   : 1004250
-99.00 percentile latency (ns)   : 1015354
-99.90 percentile latency (ns)   : 1061732
+Min latency (ns)                : 956074
+Max latency (ns)                : 1713708
+Mean latency (ns)               : 985785
+50.00 percentile latency (ns)   : 981002
+90.00 percentile latency (ns)   : 999308
+95.00 percentile latency (ns)   : 1021041
+97.00 percentile latency (ns)   : 1028185
+99.00 percentile latency (ns)   : 1046300
+99.90 percentile latency (ns)   : 1126037
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 2000
+target_qps : 2530.35
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
