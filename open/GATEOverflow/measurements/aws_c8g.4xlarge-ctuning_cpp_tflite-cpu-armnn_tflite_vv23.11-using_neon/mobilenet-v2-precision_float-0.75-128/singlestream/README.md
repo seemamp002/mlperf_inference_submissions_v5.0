@@ -40,4 +40,4 @@ Model Precision: fp32
 `acc`: `64.038`, Required accuracy for closed division `>= 75.6954`
 
 ### Performance Results 
-`90th percentile latency (ns)`: `1968105.0`
+`90th percentile latency (ns)`: `1642603.0`

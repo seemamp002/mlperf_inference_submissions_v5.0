@@ -1,0 +1,14 @@
+[2025-02-28 14:30:36,859 module.py:558 INFO] - * mlcr push,github,mlperf,inference,submission
+[2025-02-28 14:30:36,868 module.py:558 INFO] -   * mlcr get,python3
+[2025-02-28 14:30:36,869 module.py:1270 INFO] -        ! load /home/ubuntu/MLC/repos/local/cache/get-python3_0142c9a0/mlc-cached-state.json
+[2025-02-28 14:30:36,869 module.py:2216 INFO] - Path to Python: /home/ubuntu/mlcflow/bin/python3
+[2025-02-28 14:30:36,869 module.py:2216 INFO] - Python version: 3.12.3
+[2025-02-28 14:30:36,901 module.py:558 INFO] -   * mlcr get,generic-sys-util,_rsync
+[2025-02-28 14:30:36,902 module.py:1270 INFO] -        ! load /home/ubuntu/MLC/repos/local/cache/get-generic-sys-util_acb165cd/mlc-cached-state.json
+[2025-02-28 14:30:36,907 module.py:558 INFO] -   * mlcr get,mlperf,submission,dir
+[2025-02-28 14:30:36,908 module.py:1270 INFO] -        ! load /home/ubuntu/MLC/repos/local/cache/get-mlperf-inference-submission-dir_1f8fed7d/mlc-cached-state.json
+[2025-02-28 14:30:36,918 module.py:558 INFO] -   * mlcr get,git,repo,_repo.https://github.com/seemamp002/mlperf_inference_submissions_v5.0
+[2025-02-28 14:30:36,919 module.py:1270 INFO] -        ! load /home/ubuntu/MLC/repos/local/cache/get-git-repo_589b92f1/mlc-cached-state.json
+[2025-02-28 14:30:36,919 module.py:2216 INFO] - CM cache path to the Git repo: /home/ubuntu/MLC/repos/local/cache/get-git-repo_589b92f1/repo
+[2025-02-28 14:30:36,920 module.py:5327 INFO] -        ! cd /home/ubuntu/MLC/repos/local/cache/get-git-repo_589b92f1/repo
+[2025-02-28 14:30:36,920 module.py:5328 INFO] -        ! call /home/ubuntu/MLC/repos/gateoverflow@mlperf-automations/script/push-mlperf-inference-results-to-github/run.sh from tmp-run.sh

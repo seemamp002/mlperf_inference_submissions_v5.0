@@ -16,11 +16,11 @@
   "host_network_card_count": "1",
   "host_networking": "Gig Ethernet",
   "host_networking_topology": "N/A",
-  "host_processor_caches": "L1d cache: 1 MiB (16 instances), L1i cache: 1 MiB (16 instances), L2 cache: 16 MiB (16 instances), L3 cache: 32 MiB (1 instance)",
+  "host_processor_caches": "L1d cache: 1 MiB (16 instances), L1i cache: 1 MiB (16 instances), L2 cache: 32 MiB (16 instances), L3 cache: 36 MiB (1 instance)",
   "host_processor_core_count": "16",
   "host_processor_frequency": "undefined",
   "host_processor_interconnect": "",
-  "host_processor_model_name": "Neoverse-V1",
+  "host_processor_model_name": "Neoverse-V2",
   "host_processors_per_node": "1",
   "host_storage_capacity": "316G",
   "host_storage_type": "SSD",
@@ -31,7 +31,7 @@
   "status": "available",
   "submitter": "GATEOverflow",
   "sw_notes": "",
-  "system_name": "i_04a7c34379c6328aa",
+  "system_name": "i_0edb25def56914101",
   "system_type": "edge",
   "system_type_detail": "edge server"
 }

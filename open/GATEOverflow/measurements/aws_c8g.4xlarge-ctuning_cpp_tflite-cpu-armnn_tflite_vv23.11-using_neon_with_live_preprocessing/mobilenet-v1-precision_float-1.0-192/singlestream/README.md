@@ -37,7 +37,7 @@ Platform: aws_c8g.4xlarge-ctuning_cpp_tflite-cpu-armnn_tflite_vv23.11-using_neon
 Model Precision: fp32
 
 ### Accuracy Results 
-`acc`: `70.624`, Required accuracy for closed division `>= 75.6954`
+`acc`: `70.626`, Required accuracy for closed division `>= 75.6954`
 
 ### Performance Results 
-`90th percentile latency (ns)`: `3037556.0`
+`90th percentile latency (ns)`: `2400258.0`

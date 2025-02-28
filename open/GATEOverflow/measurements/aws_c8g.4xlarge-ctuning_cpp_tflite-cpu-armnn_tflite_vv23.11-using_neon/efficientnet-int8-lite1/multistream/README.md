@@ -40,4 +40,4 @@ Model Precision: uint8
 `acc`: `74.116`, Required accuracy for closed division `>= 75.6954`
 
 ### Performance Results 
-`90th percentile latency (ns)`: `3491108.0`
+`90th percentile latency (ns)`: `2864903.0`

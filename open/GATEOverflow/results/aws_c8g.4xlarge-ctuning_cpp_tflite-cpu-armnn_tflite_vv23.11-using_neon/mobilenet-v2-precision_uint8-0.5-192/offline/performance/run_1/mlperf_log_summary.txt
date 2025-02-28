@@ -4,32 +4,32 @@ MLPerf Results Summary
 SUT name : TFLite_SUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90.0th percentile latency (ns) : 2023379
+90.0th percentile latency (ns) : 1585337
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (305416).
- * Would discard 30154 highest latency queries.
- * Early stopping 90.0th percentile estimate: 2023686
- * Early stopping 99.0th percentile estimate: 2066311
+ * Processed at least 64 queries (390783).
+ * Would discard 38641 highest latency queries.
+ * Early stopping 90.0th percentile estimate: 1585631
+ * Early stopping 99.0th percentile estimate: 1635053
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 509.02
-QPS w/o loadgen overhead        : 509.65
+QPS w/ loadgen overhead         : 651.30
+QPS w/o loadgen overhead        : 652.17
 
-Min latency (ns)                : 1757428
-Max latency (ns)                : 6024379
-Mean latency (ns)               : 1962116
-50.00 percentile latency (ns)   : 1965258
-90.00 percentile latency (ns)   : 2023379
-95.00 percentile latency (ns)   : 2038031
-97.00 percentile latency (ns)   : 2047560
-99.00 percentile latency (ns)   : 2065661
-99.90 percentile latency (ns)   : 2107771
+Min latency (ns)                : 1428849
+Max latency (ns)                : 4653545
+Mean latency (ns)               : 1533336
+50.00 percentile latency (ns)   : 1529976
+90.00 percentile latency (ns)   : 1585337
+95.00 percentile latency (ns)   : 1601606
+97.00 percentile latency (ns)   : 1612357
+99.00 percentile latency (ns)   : 1634328
+99.90 percentile latency (ns)   : 1714171
 
 ================================================
 Test Parameters Used
