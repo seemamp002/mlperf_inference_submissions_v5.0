@@ -2,9 +2,9 @@
 
 ## Host platform
 
-* OS version: Linux-6.8.0-52-generic-x86_64-with-glibc2.39
+* OS version: Linux-6.8.0-52-generic-x86_64-with-glibc2.35
 * CPU version: x86_64
-* Python version: 3.12.3 (main, Jan 17 2025, 18:03:48) [GCC 13.3.0]
+* Python version: 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]
 * MLC version: unknown
 
 ## CM Run Command
@@ -16,7 +16,7 @@ pip install -U mlcflow
 
 mlc rm cache -f
 
-mlc pull repo gateoverflow@mlperf-automations --checkout=8ba24e1fdee02f027939a2b89b66338be1b4fe32
+mlc pull repo gateoverflow@mlperf-automations --checkout=8db6dc4ab41f1e8643149595a791629a883d6a14
 
 
 ```
@@ -40,4 +40,4 @@ Model Precision: fp32
 `acc`: `60.974`, Required accuracy for closed division `>= 75.6954`
 
 ### Performance Results 
-`90th percentile latency (ns)`: `1044990.0`
+`90th percentile latency (ns)`: `1099081.0`

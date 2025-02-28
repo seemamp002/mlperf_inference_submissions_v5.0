@@ -1,10 +1,10 @@
-Graph file: /home/arjun/MLC/repos/local/cache/get-ml-model-mobilenet_dae1d8dd/mobilenet_v2_1.0_160.tflite
-Image dir: /home/arjun/MLC/repos/local/cache/get-preprocessed-dataset-imagenet_e07c5002
-Image list: /home/arjun/MLC/repos/local/cache/get-preprocessed-dataset-imagenet_e07c5002/preprocessed_files.txt
+Graph file: /home/mlcuser/MLC/repos/local/cache/get-ml-model-mobilenet_7beafc6b/mobilenet_v2_1.0_160.tflite
+Image dir: /home/mlcuser/MLC/repos/local/cache/get-preprocessed-dataset-imagenet_0f43d138
+Image list: /home/mlcuser/MLC/repos/local/cache/get-preprocessed-dataset-imagenet_0f43d138/preprocessed_files.txt
 Image size: 160
 Image channels: 3
 Prediction classes: 1000
-Result dir: /home/arjun/MLC/repos/local/cache/get-mlperf-inference-results-dir_efb60c2c/valid_results/phoenix_Amd_Am5-tflite_cpp-cpu-tflite-vmaster-default_config/mobilenet-v2-precision_float-1.0-160/singlestream/accuracy
+Result dir: /home/mlcuser/MLC/repos/local/cache/get-mlperf-inference-results-dir_efb60c2c/valid_results/8a15d68f4cec-tflite_cpp-cpu-tflite-vmaster-default_config/mobilenet-v2-precision_float-1.0-160/singlestream/accuracy
 How many images fit in memory buffer: 1024
 Normalize: 1
 Subtract mean: 0
@@ -16,7 +16,7 @@ Loading graph...
 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 Input tensor dimensions (NHWC): 1*160*160*3
 Output tensor dimensions: 1*1001
-Path to user.conf : /home/arjun/MLC/repos/gateoverflow@mlperf-automations/script/generate-mlperf-inference-user-conf/tmp/56505cdb9d3249938b771f7764310d40.conf
+Path to user.conf : /home/mlcuser/MLC/repos/gateoverflow@mlperf-automations/script/generate-mlperf-inference-user-conf/tmp/d4970711f31145499a9359855e3e44a1.conf
 Model Name: mobilenet
 LoadGen Scenario: SingleStream
 LoadGen Mode: accuracy
