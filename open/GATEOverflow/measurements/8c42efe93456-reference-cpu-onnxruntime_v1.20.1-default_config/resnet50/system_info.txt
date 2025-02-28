@@ -5,7 +5,7 @@ Platform Details
 Linux 8c42efe93456 5.15.167.4-microsoft-standard-WSL2 #1 SMP Tue Nov 5 00:21:55 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 ------------------------------------------------------------
 2. w
- 02:36:36 up 14:52,  0 users,  load average: 0.39, 0.10, 0.03
+ 19:23:58 up 12:20,  0 users,  load average: 7.44, 6.86, 3.88
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 ------------------------------------------------------------
 3. Username
@@ -527,42 +527,42 @@ No NUMA available on this system
 ------------------------------------------------------------
 9. /proc/meminfo
 MemTotal:        7938384 kB
-MemFree:         6667548 kB
-MemAvailable:    6980744 kB
-Buffers:           12188 kB
-Cached:           201676 kB
-SwapCached:        19896 kB
-Active:           199968 kB
-Inactive:         310996 kB
-Active(anon):      78012 kB
-Inactive(anon):   220060 kB
-Active(file):     121956 kB
-Inactive(file):    90936 kB
+MemFree:         5984016 kB
+MemAvailable:    7005292 kB
+Buffers:            2620 kB
+Cached:           919264 kB
+SwapCached:        17820 kB
+Active:           144756 kB
+Inactive:        1053540 kB
+Active(anon):      67120 kB
+Inactive(anon):   210140 kB
+Active(file):      77636 kB
+Inactive(file):   843400 kB
 Unevictable:           0 kB
 Mlocked:               0 kB
 SwapTotal:       2097152 kB
-SwapFree:        1993052 kB
-Dirty:                48 kB
+SwapFree:        1961052 kB
+Dirty:                 4 kB
 Writeback:             0 kB
-AnonPages:        294204 kB
-Mapped:            59392 kB
-Shmem:              1216 kB
-KReclaimable:     400308 kB
-Slab:             485804 kB
-SReclaimable:     400308 kB
-SUnreclaim:        85496 kB
-KernelStack:        6736 kB
-PageTables:         4356 kB
+AnonPages:        270392 kB
+Mapped:            65096 kB
+Shmem:               844 kB
+KReclaimable:     400244 kB
+Slab:             485692 kB
+SReclaimable:     400244 kB
+SUnreclaim:        85448 kB
+KernelStack:        6720 kB
+PageTables:         4944 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:     6066344 kB
-Committed_AS:    1524528 kB
+Committed_AS:    1525088 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:       28828 kB
+VmallocUsed:       28844 kB
 VmallocChunk:          0 kB
 Percpu:             5440 kB
-AnonHugePages:    196608 kB
+AnonHugePages:    182272 kB
 ShmemHugePages:        0 kB
 ShmemPmdMapped:        0 kB
 FileHugePages:         0 kB
@@ -635,16 +635,16 @@ dev.scsi.logging_level = 0
 dev.tty.ldisc_autoload = 0
 fs.aio-max-nr = 65536
 fs.aio-nr = 0
-fs.dentry-state = 268181	158684	45	0	11619	0
+fs.dentry-state = 266535	157641	45	0	9616	0
 fs.dir-notify-enable = 1
 fs.epoll.max_user_watches = 1765620
 fs.fanotify.max_queued_events = 16384
 fs.fanotify.max_user_groups = 128
 fs.fanotify.max_user_marks = 65941
 fs.file-max = 791936
-fs.file-nr = 704	0	791936
-fs.inode-nr = 328761	71996
-fs.inode-state = 328761	71996	0	0	0	0	0
+fs.file-nr = 640	0	791936
+fs.inode-nr = 329347	72224
+fs.inode-state = 329347	72224	0	0	0	0	0
 fs.inotify.max_queued_events = 16384
 fs.inotify.max_user_instances = 8192
 fs.inotify.max_user_watches = 1048576
@@ -736,7 +736,7 @@ kernel.msgmax = 8192
 kernel.msgmnb = 16384
 kernel.msgmni = 32000
 kernel.ngroups_max = 65536
-kernel.ns_last_pid = 17546
+kernel.ns_last_pid = 13254
 kernel.oops_all_cpu_backtrace = 0
 kernel.oops_limit = 10000
 kernel.osrelease = 5.15.167.4-microsoft-standard-WSL2
@@ -771,7 +771,7 @@ kernel.random.boot_id = 384a490b-fdba-47ab-aebf-bdf639c9dfdc
 kernel.random.entropy_avail = 256
 kernel.random.poolsize = 256
 kernel.random.urandom_min_reseed_secs = 60
-kernel.random.uuid = b0d7b4fd-8849-42ed-801d-c60a2f5dbb66
+kernel.random.uuid = b43ab7b0-6177-4ea6-adde-e33e0ad1d3d0
 kernel.random.write_wakeup_threshold = 256
 kernel.randomize_va_space = 2
 kernel.real-root-dev = 0

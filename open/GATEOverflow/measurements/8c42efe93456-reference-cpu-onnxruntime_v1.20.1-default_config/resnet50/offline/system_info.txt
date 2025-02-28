@@ -5,7 +5,7 @@ Platform Details
 Linux 8c42efe93456 5.15.167.4-microsoft-standard-WSL2 #1 SMP Tue Nov 5 00:21:55 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 ------------------------------------------------------------
 2. w
- 14:10:42 up 0 min,  0 users,  load average: 0.33, 0.09, 0.03
+ 14:10:13 up  7:06,  0 users,  load average: 20.70, 21.42, 14.33
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 ------------------------------------------------------------
 3. Username
@@ -31,7 +31,7 @@ virtual memory              (kbytes, -v) unlimited
 file locks                          (-x) unlimited
 ------------------------------------------------------------
 5. sysinfo process ancestry
-bash---bash---mlcr---sh---bash---pstree
+bash---bash---bash---mlcr---sh---bash---pstree
 ------------------------------------------------------------
 6. /proc/cpuinfo
 processor	: 0
@@ -527,42 +527,42 @@ No NUMA available on this system
 ------------------------------------------------------------
 9. /proc/meminfo
 MemTotal:        7938384 kB
-MemFree:         6570548 kB
-MemAvailable:    7164220 kB
-Buffers:          161620 kB
-Cached:           630864 kB
-SwapCached:            0 kB
-Active:           219532 kB
-Inactive:         794872 kB
-Active(anon):       2452 kB
-Inactive(anon):   222044 kB
-Active(file):     217080 kB
-Inactive(file):   572828 kB
+MemFree:         6742596 kB
+MemAvailable:    7002384 kB
+Buffers:            5760 kB
+Cached:           399600 kB
+SwapCached:         2036 kB
+Active:           206864 kB
+Inactive:         505804 kB
+Active(anon):     100748 kB
+Inactive(anon):   210104 kB
+Active(file):     106116 kB
+Inactive(file):   295700 kB
 Unevictable:           0 kB
 Mlocked:               0 kB
 SwapTotal:       2097152 kB
-SwapFree:        2097152 kB
-Dirty:               436 kB
+SwapFree:        2061496 kB
+Dirty:                60 kB
 Writeback:             0 kB
-AnonPages:        221180 kB
-Mapped:           204036 kB
-Shmem:              3288 kB
-KReclaimable:      38596 kB
-Slab:              96740 kB
-SReclaimable:      38596 kB
-SUnreclaim:        58144 kB
-KernelStack:        6240 kB
-PageTables:         4396 kB
+AnonPages:        282556 kB
+Mapped:            76668 kB
+Shmem:              3300 kB
+KReclaimable:     147012 kB
+Slab:             225828 kB
+SReclaimable:     147012 kB
+SUnreclaim:        78816 kB
+KernelStack:        6736 kB
+PageTables:         4040 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:     6066344 kB
-Committed_AS:    1279972 kB
+Committed_AS:    1464372 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:       28292 kB
+VmallocUsed:       28828 kB
 VmallocChunk:          0 kB
-Percpu:             5312 kB
-AnonHugePages:    129024 kB
+Percpu:             5440 kB
+AnonHugePages:    204800 kB
 ShmemHugePages:        0 kB
 ShmemPmdMapped:        0 kB
 FileHugePages:         0 kB
@@ -573,9 +573,9 @@ HugePages_Rsvd:        0
 HugePages_Surp:        0
 Hugepagesize:       2048 kB
 Hugetlb:               0 kB
-DirectMap4k:       25600 kB
-DirectMap2M:     6066176 kB
-DirectMap1G:    10485760 kB
+DirectMap4k:       27648 kB
+DirectMap2M:     3966976 kB
+DirectMap1G:    12582912 kB
 ------------------------------------------------------------
 10. who -r
 ------------------------------------------------------------
@@ -614,10 +614,9 @@ hwclock.sh.service	disabled
 motd-news.service	static
 motd-news.timer	enabled
 procps.service	disabled
-rsync.service	disabled
 sudo.service	masked
 
-32 unit files listed.
+31 unit files listed.
 ------------------------------------------------------------
 13. Linux kernel boot-time arguments, from /proc/cmdline
 initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=16 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0 WSL_ENABLE_CRASH_DUMP=1
@@ -635,16 +634,16 @@ dev.scsi.logging_level = 0
 dev.tty.ldisc_autoload = 0
 fs.aio-max-nr = 65536
 fs.aio-nr = 0
-fs.dentry-state = 32217	9647	45	0	4951	0
+fs.dentry-state = 83662	52401	45	0	3034	0
 fs.dir-notify-enable = 1
 fs.epoll.max_user_watches = 1765620
 fs.fanotify.max_queued_events = 16384
 fs.fanotify.max_user_groups = 128
 fs.fanotify.max_user_marks = 65941
-fs.file-max = 791957
-fs.file-nr = 608	0	791957
-fs.inode-nr = 27415	1
-fs.inode-state = 27415	1	0	0	0	0	0
+fs.file-max = 791936
+fs.file-nr = 704	0	791936
+fs.inode-nr = 101473	21197
+fs.inode-state = 101473	21197	0	0	0	0	0
 fs.inotify.max_queued_events = 16384
 fs.inotify.max_user_instances = 8192
 fs.inotify.max_user_watches = 1048576
@@ -682,7 +681,7 @@ fs.quota.drops = 0
 fs.quota.free_dquots = 0
 fs.quota.lookups = 0
 fs.quota.reads = 0
-fs.quota.syncs = 8
+fs.quota.syncs = 16
 fs.quota.writes = 0
 fs.suid_dumpable = 0
 fs.xfs.error_level = 3
@@ -736,7 +735,7 @@ kernel.msgmax = 8192
 kernel.msgmnb = 16384
 kernel.msgmni = 32000
 kernel.ngroups_max = 65536
-kernel.ns_last_pid = 645
+kernel.ns_last_pid = 3896
 kernel.oops_all_cpu_backtrace = 0
 kernel.oops_limit = 10000
 kernel.osrelease = 5.15.167.4-microsoft-standard-WSL2
@@ -765,13 +764,13 @@ kernel.printk_devkmsg = on
 kernel.printk_ratelimit = 5
 kernel.printk_ratelimit_burst = 10
 kernel.pty.max = 4096
-kernel.pty.nr = 4
+kernel.pty.nr = 5
 kernel.pty.reserve = 1024
-kernel.random.boot_id = 1298985d-13de-46c3-9ded-18d31d362ea8
+kernel.random.boot_id = 384a490b-fdba-47ab-aebf-bdf639c9dfdc
 kernel.random.entropy_avail = 256
 kernel.random.poolsize = 256
 kernel.random.urandom_min_reseed_secs = 60
-kernel.random.uuid = 87069c71-d5fe-4ecf-85a8-19ab21d7a44f
+kernel.random.uuid = deef79bb-7fdf-49f6-8d78-55c89675e2cd
 kernel.random.write_wakeup_threshold = 256
 kernel.randomize_va_space = 2
 kernel.real-root-dev = 0
