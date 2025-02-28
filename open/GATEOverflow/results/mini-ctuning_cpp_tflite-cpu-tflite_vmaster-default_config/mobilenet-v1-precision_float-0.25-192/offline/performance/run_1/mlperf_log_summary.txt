@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : TFLite_SUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90.0th percentile latency (ns) : 787166
+90.0th percentile latency (ns) : 772590
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (758232).
- * Would discard 75214 highest latency queries.
- * Early stopping 90.0th percentile estimate: 787167
- * Early stopping 99.0th percentile estimate: 799670
+ * Processed at least 64 queries (779159).
+ * Would discard 77298 highest latency queries.
+ * Early stopping 90.0th percentile estimate: 772620
+ * Early stopping 99.0th percentile estimate: 783871
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 1263.72
-QPS w/o loadgen overhead        : 1278.87
+QPS w/ loadgen overhead         : 1298.60
+QPS w/o loadgen overhead        : 1300.17
 
-Min latency (ns)                : 762581
-Max latency (ns)                : 1452312
-Mean latency (ns)               : 781942
-50.00 percentile latency (ns)   : 783605
-90.00 percentile latency (ns)   : 787166
-95.00 percentile latency (ns)   : 791567
-97.00 percentile latency (ns)   : 794501
-99.00 percentile latency (ns)   : 799390
-99.90 percentile latency (ns)   : 831379
+Min latency (ns)                : 756237
+Max latency (ns)                : 1332185
+Mean latency (ns)               : 769133
+50.00 percentile latency (ns)   : 769122
+90.00 percentile latency (ns)   : 772590
+95.00 percentile latency (ns)   : 776848
+97.00 percentile latency (ns)   : 779342
+99.00 percentile latency (ns)   : 783751
+99.90 percentile latency (ns)   : 807187
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 2000
+target_qps : 3197.17
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
