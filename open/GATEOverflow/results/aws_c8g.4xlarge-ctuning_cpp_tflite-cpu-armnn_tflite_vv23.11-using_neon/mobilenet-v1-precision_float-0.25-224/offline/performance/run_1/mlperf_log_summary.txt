@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : TFLite_SUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90.0th percentile latency (ns) : 876274
+90.0th percentile latency (ns) : 1091386
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (702902).
- * Would discard 69704 highest latency queries.
- * Early stopping 90.0th percentile estimate: 876376
- * Early stopping 99.0th percentile estimate: 903456
+ * Processed at least 64 queries (565062).
+ * Would discard 55980 highest latency queries.
+ * Early stopping 90.0th percentile estimate: 1091511
+ * Early stopping 99.0th percentile estimate: 1119001
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 1171.50
-QPS w/o loadgen overhead        : 1173.80
+QPS w/ loadgen overhead         : 941.77
+QPS w/o loadgen overhead        : 943.81
 
-Min latency (ns)                : 794828
-Max latency (ns)                : 3432180
-Mean latency (ns)               : 851934
-50.00 percentile latency (ns)   : 849978
-90.00 percentile latency (ns)   : 876274
-95.00 percentile latency (ns)   : 884449
-97.00 percentile latency (ns)   : 890138
-99.00 percentile latency (ns)   : 903083
-99.90 percentile latency (ns)   : 947842
+Min latency (ns)                : 967015
+Max latency (ns)                : 3222887
+Mean latency (ns)               : 1059536
+50.00 percentile latency (ns)   : 1060770
+90.00 percentile latency (ns)   : 1091386
+95.00 percentile latency (ns)   : 1099977
+97.00 percentile latency (ns)   : 1105944
+99.00 percentile latency (ns)   : 1118621
+99.90 percentile latency (ns)   : 1157749
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 2953.77
+target_qps : 2328.26
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000

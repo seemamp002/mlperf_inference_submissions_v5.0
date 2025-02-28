@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : TFLite_SUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90.0th percentile latency (ns) : 760911
+90.0th percentile latency (ns) : 969019
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (808674).
- * Would discard 80238 highest latency queries.
- * Early stopping 90.0th percentile estimate: 761002
- * Early stopping 99.0th percentile estimate: 788670
+ * Processed at least 64 queries (638203).
+ * Would discard 63261 highest latency queries.
+ * Early stopping 90.0th percentile estimate: 969127
+ * Early stopping 99.0th percentile estimate: 995062
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 1347.79
-QPS w/o loadgen overhead        : 1350.56
+QPS w/ loadgen overhead         : 1063.67
+QPS w/o loadgen overhead        : 1066.10
 
-Min latency (ns)                : 692308
-Max latency (ns)                : 2900778
-Mean latency (ns)               : 740436
-50.00 percentile latency (ns)   : 738384
-90.00 percentile latency (ns)   : 760911
-95.00 percentile latency (ns)   : 768782
-97.00 percentile latency (ns)   : 774582
-99.00 percentile latency (ns)   : 788300
-99.90 percentile latency (ns)   : 837753
+Min latency (ns)                : 849873
+Max latency (ns)                : 2962358
+Mean latency (ns)               : 937999
+50.00 percentile latency (ns)   : 938518
+90.00 percentile latency (ns)   : 969019
+95.00 percentile latency (ns)   : 977196
+97.00 percentile latency (ns)   : 982810
+99.00 percentile latency (ns)   : 994707
+99.90 percentile latency (ns)   : 1036104
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 3373.11
+target_qps : 2647.22
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
